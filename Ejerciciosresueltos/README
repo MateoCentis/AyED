@@ -1,0 +1,2218 @@
+
+LISTA DE PROGRAMAS POR PALABRA CLAVE: -----
+
+>>> ALGORITMOS:
+    matrices.cpp
+
+>>> ARBOL BINARIO:
+    bin2ord.cpp, btree.h, compbtree.cpp, contenido.cpp, cumsum-ab.cpp, decompint.cpp,
+    depthif.cpp, isbalanced.cpp, listarbb.cpp, sccount.cpp, splitd.cpp, task1_bb.cpp,
+    task2_bb.cpp, tpl320181101.cpp, tpl320161103.cpp, tpl320171102.cpp,
+    tpl3d20141101.cpp, tpl3r20141106.cpp, tplr20161110.cpp, tplsr20141107.cpp,
+    tplr20171109.cpp, tplr20181122.cpp, tpl320191031.cpp, tplr20191107.cpp,
+    util_btree.cpp, util_btree.h
+
+>>> ARBOL ORIENTADO:
+    bin2ord.cpp, countif.cpp, countlev.cpp, cumsum.cpp, lesser.cpp, lisp2tree.cpp,
+    list2tree.cpp, listarbo.cpp, map2count.cpp, mapprepost.cpp, maxcota_bo.cpp,
+    mkmirror.cpp, orden_nivel.cpp, ordnodo.cpp, parcord.cpp, splitdaoo.cpp, task1_bo.cpp,
+    task2_bo.cpp, tpl22013.cpp, tpl220161013.cpp, tpl220181011.cpp, tpl2r20141016.cpp,
+    tpl2r20151022.cpp, tplr20161110.cpp, tpl220171012.cpp, tplr20171109.cpp,
+    tplr20181122.cpp, tpl220191010.cpp, tree.h, util_tree.cpp, util_tree.h,
+    verifsum_bo.cpp, verifsum_bo.cpp
+
+>>> COLA:
+    cadena_pq.cpp, cum_sum_cola.cpp, elimina_valor.cpp, existspath.cpp, parimpa.cpp,
+    rotacion.cpp, tpl120170908.cpp, tpl2r20141016.cpp, tpl120190905.cpp, util.cpp,
+    util.h, rotneg.cpp, intercola.cpp
+
+>>> CONJUNTO:
+    conjunto1.cpp, conjunto2.cpp, conjunto3.cpp, connected.cpp, dagdesc.cpp, diffsym.cpp,
+    eqclass.cpp, gatherset.cpp, graphlayers.cpp, graphs1.cpp, incall.cpp, incluido.cpp,
+    ishamilt.cpp, isindep.cpp, ismapset.cpp, isspngtree.cpp, maxshare.cpp,
+    open_hash_set.cpp, propsubset.cpp, reversedag.cpp, set_vector_bit.h,
+    tpl320181101.cpp, tpl320161103.cpp, tpl320171102.cpp, tpl3d20141101.cpp,
+    tpl3r20141106.cpp, tplr20161110.cpp, tplsr20141107.cpp, tplr20171109.cpp,
+    tplr20181122.cpp, tpl320191031.cpp, tplr20191107.cpp, verifcolor.cpp
+
+>>> CORRESPONDENCIA:
+    apply-map.cpp, areinverse.cpp, checkmap.cpp, compacta.cpp, concatmap.cpp,
+    cutoffmap.cpp, cyclic.cpp, dagdesc.cpp, es_biyectiva.cpp, espermut.cpp,
+    existspath.cpp, graphs1.cpp, intersecmap.cpp, inverse.cpp, ismapped.cpp,
+    isrotation.cpp, isshift.cpp, isspngtree.cpp, lista_cte.cpp, map2list.cpp,
+    mapoddeven.cpp, mergemap.cpp, nilpot.cpp, nullsum.cpp, odd2even.cpp,
+    parc120140918.cpp, reversedag.cpp, submap.cpp, tpl22013.cpp, tpl220161013.cpp,
+    tpl220181011.cpp, tpl2r20141016.cpp, tpl2r20151022.cpp, tplr20161110.cpp,
+    tpl220171012.cpp, tplr20181122.cpp, tpl220191010.cpp
+
+>>> DICCIONARIO:
+    open_hash_set.cpp
+
+>>> GRAFO:
+    existspath.cpp, ishamilt.cpp, isindep.cpp, tpl2r20141016.cpp, tpl2r20151022.cpp,
+    verifcolor.cpp
+
+>>> LISTA:
+    apply-map.cpp, areinverse.cpp, ascendente.cpp, cadena_pq.cpp, checkmap.cpp,
+    chunk-revert.cpp, circulo.cpp, compacta.cpp, concatena.cpp, concatmap.cpp,
+    conjunto1.cpp, conjunto2.cpp, cutoffmap.cpp, cyclic.cpp, existspath.cpp, expand.cpp,
+    intercala.cpp, intersecmap.cpp, inverse.cpp, isrotation.cpp, issublist.cpp,
+    josephus.cpp, junta.cpp, lista_cte.cpp, listd.h, map2list.cpp, mapoddeven.cpp,
+    mapprepost.cpp, mergemap.cpp, nullsum.cpp, odd2even.cpp, ordenag.cpp,
+    parc120140918.cpp, particiona.cpp, print_back.cpp, ralea.cpp, reemplaza.cpp,
+    refina.cpp, rejunta.cpp, sorted_list1.cpp, sorted_list2.cpp, sorted_list3.cpp,
+    tpl1-2013.cpp, tpl120150829.cpp, tpl120160908.cpp, tpl120170908.cpp,
+    tpl120180906.cpp, tpl1d20140830.cpp, tpl1r20150912.cpp, tpl1rec-2013.cpp,
+    tpl22013.cpp, tplr20161110.cpp, tplsr20141107.cpp, tplr20171109.cpp,
+    tplr20181122.cpp, tpl120190905.cpp, tplr20191107.cpp, util.cpp, util.h,
+    splitrange.cpp, nngbr1d.cpp, smoothing.cpp, listasumas.cpp, xrange.cpp
+
+>>> PILA:
+    cadena_pq.cpp, cum_sum_pila.cpp, lexico_stack.cpp, parent.cpp, tpl120170908.cpp,
+    tpl2r20141016.cpp, tpl120190905.cpp, tplr20191107.cpp, acumula.cpp
+
+>>> PROGRAMACION FUNCIONAL:
+    tpl320161103.cpp, tplr20161110.cpp, tplr20171109.cpp
+
+--------------------------------------------------------------------------------
+////////////////////////////////////////////////////////////////////////////////
+--------------------------------------------------------------------------------
+
+
+LISTA DE POGRAMAS POR ORDEN ALFABETICO: 
+----- acumula.cpp -------------------
+
+   Dada una pila #S,# escribir una funcion 
+   #void acumula(stack<int> &S);# tal que deja en la posicion #j# de
+   la pila la suma de los elementos desde #0# hasta #j#
+   (inclusive) por ejemplo si #S = (1,3,2,4,2)# entonces debe
+   quedar #S = (1,4,6,10,12)#.
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: pila
+
+----- apply-map.cpp -------------------
+
+   Escribir una funci\'on
+   #void apply_map(list<int> &L, map<int,int> &M, list<int> &ML)# que,
+   dada una lista #L# y una correspondencia #M# retorna por
+   #ML# una lista con los resultados de aplicar #M# a los
+   elementos de #L#. Si alg\'un elemento de #L# no esta en el dominio
+   de #M#, entonces el elemento correspondiente de #ML# no es
+   incluido. Por ejemplo, si
+   #L = (1,2,3,4,5,6,7,1,2,3)# y
+   #M= {(1,2),(2,3),(3,4),(4,5),(7,8)}#,
+   entonces, despu\'es de hacer #apply_map(L,M,ML)#, debe quedar
+   #ML = {(2,3,4,5,8,2,3,4)}#.
+   [Tomado en el 1er parcial del 20/4/2006].
+   keywords: lista, correspondencia
+
+----- areinverse.cpp -------------------
+
+   Dos corresponencias #M1# y #M2# son inversas una 
+   de la otra si tienen el mismo numero de asignaciones y 
+   para cada par de asignacion #x->y# en #M1# existe 
+   el par #y->x# en #M2#. Escribir una funcion predicado
+   #bool areinverse(map<int,int> &M1,map<int,int> &M2);# que
+   determina si las correspondencias #M1#, #M2# son una la 
+   inversa de la otra o no. 
+   [Tomado en Primer Parcial 17-SET-2009].
+   keywords: correspondencia, lista
+
+----- ascendente.cpp -------------------
+
+  Escribir una funci\'on 
+  #int ascendente1 (list <int> &L, list<list<int> > &LL)#
+  que, dada una lista #L#, genera una lista de listas #LL# 
+  de tal forma de que cada sublista es ascendente.
+  [Tomado en el Parcial 1 20-ABR-2006].
+
+  Escribir una funci\'on 
+  #int ascendente2 (list <int> &L, vector < list<int> > &VL)#
+  que, dada una lista #L#, genera un vector de listas #VL# 
+  de tal forma de que cada sublista es ascendente.
+  [Tomado en Examen Final 29-JUL-2004].
+  keywords: lista
+
+----- bin2ord.cpp -------------------
+
+   bin2ord: Escribir una funcion #void bin2ord(btree<int> &B, tree<int>#
+   #&T);# que dado un AB B de enteros POSITIVOS lo convierte a un AOO con
+   la siguiente convencion. En caso de que uno de los nodos del AB tenga
+   uno solo de los hijos reemplazamos el valor por un valor LAMBDA (en
+   este caso puede ser LAMBDA=-1).
+   ord2bin: Escribir la funcion inversa #void ord2bin(tree<int> &T,#
+   #btree<int> &B);# que dado un AOO (que supuestamente fue generado por
+   bin2ord) lo convierte de nuevo a AB. (Deberia ser siempre
+   #B=ord2bin(bin2ord(B))# )
+   [Tomado 2do parcial de 2012, 2012-10-25]
+   keywords: arbol orientado, arbol binario
+
+----- btree.h -------------------
+
+   Utilitarios varios. 
+   keywords: arbol binario
+
+----- cadena_pq.cpp -------------------
+
+  Determinar si una cadena {\tt z} es de la forma {\tt z = x y}, 
+  donde {\tt y} es la cadena inversa (o espejo) de la cadena 
+  {\tt x}, ignorando los espacios en blanco. 
+  Emplear una cola y una pila auxiliares.
+  keywords: lista, pila, cola
+
+----- checkmap.cpp -------------------
+
+   Dado un #map<int, list<bool> > M#, verificar que para
+   todas las claves pares, la lista correspondiente tenga todos
+   sus elementos en true o bien que sea vacia. Si el map no
+   tiene elementos, la salida debe ser true.
+   [Tomado en primer parcial de lab 2011-09-17].
+   keywords: correspondencia, lista
+
+----- chunk-revert.cpp -------------------
+
+  Escribir una funci\'on 
+  #void chunk_revert(list<int> &L,int n);# que
+  dada una lista #L# y un entero #n#, 
+  invierte los elementos de la lista tomados de a #n#. 
+  Si la longitud de la lista no es m\'ultiplo de #n# 
+  entonces se invierte el resto tambi\'en. 
+  Por ejemplo, si #L={1,3,2,5,4,6,2,7}#
+  entonces despu\'es de hacer #chunk_revert(L,3)# debe 
+  quedar #L={2,3,1,6,4,5,7,2}#.
+  _Restricciones:_ Usar a lo sumo una estructura auxiliar.
+  (En tal caso debe ser lista, pila o cola). 
+   [Tomado en el 1er parcial 21/4/2005]. 
+   keywords: lista
+
+----- circulo.cpp -------------------
+
+  Coloquemos #n# n\'umeros enteros positivos alrededor de una 
+  circunferencia inicial. Construyamos ahora sucesivas 
+  circunferencias conc\'entricas {\it hacia el exterior}, de igual 
+  cantidad de elementos, los cuales son obtenidos restando (en valor 
+  absoluto) pares consecutivos de la \'ultima circunferencia 
+  exterior. 
+  Entonces, dada una lista #L = [ x_0, x_1, ..., x_{n-1} ]# de #n#
+  n\'umeros enteros que representan los valores iniciales alrededor de
+  la circunferencia inicial, escribir una funci\'on 
+  #int circulo(list<int> &L);# 
+  que ejecuta esta tarea y devuelva adem\'as
+  el n\'umero de circunferencias iteradas #p#
+  [Tomado en el 1er parcial del 21/4/2005].
+  keywords: lista
+
+----- compacta.cpp -------------------
+
+   Escribir una funci\'on #void compacta(list<int> &L,stack<int> &S);# que
+   toma un elemento entero #n# de #S# y, si es positivo,
+   saca #n# elementos de #L# y los reemplaza por su suma. Esto ocurre
+   con todos los elementos de #S# hasta que se acaben, o bien se acaben
+   los elementos de #L#. 
+   [Tomado en el primer parcial del cursado 2010, 2010-09-14.]
+   keywords: lista, correspondencia
+
+----- compbtree.cpp -------------------
+
+   Se define una relaci\'on de orden
+   entre \'arboles binarios de enteros de la siguiente forma: 
+   #A<B# si #a<b#, o bien ({\tt a=b} y {\tt Ai < Bi}), o 
+   bien ({\tt a=b} y #Ai=Bi# y {\tt Ad<Bd}), donde 
+   #a#, #b# son las ra\'{\i}ces y #Ai#, #Ad#, #Bi#, #Bd# 
+   son los sub\'arboles izquierdos y derechos de #A# y #B#. 
+   Consigna: Escribir una funci\'on 
+   #bool es_menor(tree<int> &A,tree<int> &B)# que retorna
+   verdadero si #A < B#. 
+   [Tomado en el 2do parcial 26/5/2005]. 
+   keywords: arbol binario
+
+----- concatena.cpp -------------------
+
+   Escriba procedimientos para concatenanar:
+   a) dos listas {\tt L1} y {\tt L2} usando {\tt insert};
+   b) un vector {\tt VL} de {\tt n} listas usando {\tt insert};
+   c) una lista {\tt LL} de {\tt n} sublistas usando {\tt insert} 
+      ``b\'asico'';
+   d) una lista {\tt LL} de {\tt n} sublistas usando una opci\'on 
+      de {\tt insert};
+   e) una lista {\tt LL} de {\tt n} sublistas usando {\tt splice}.
+   keywords: lista
+
+----- concatmap.cpp -------------------
+
+   Escribir una funci\'on 
+   #void concat_map(map<int,list<int> >& M, list<int>& L);# tal que 
+   reemplaza los elementos de #L# por su imagen en #M#. Si un
+   elemento de #L# no es clave de #M# entonces se asume que su imagen
+   es la lista vac\'\i{}a.
+   [Tomado en el primer parcial del cursado 2010, 2010-09-14.]
+   keywords: lista, correspondencia
+
+----- conjunto1.cpp -------------------
+
+Diversas operaciones con conjuntos:
+purge            : purga elementos repetidos de una lista usando 
+                   un conjunto como estructura auxiliar y con 
+                   una implementacion tal que sea O (n).
+set_intersection : interseccion de conjuntos;
+prints           : imprime los elementos de un conjunto.
+Keywords: conjunto, lista
+
+----- conjunto2.cpp -------------------
+
+Diversas operaciones con conjuntos:
+disjuntos: verifica si una serie de conjuntos son disjuntos entre si. 
+cubre_todo: verifica si un dado conjunto W cubre incluye a toda una
+     serie de conjuntos Si.
+todos_pares: verifica si todos los elementos de un conjunto son pares. 
+Keywords: conjunto, lista
+
+----- conjunto3.cpp -------------------
+
+Diversas operaciones con conjuntos:
+flat: Escribir una funcion predicado 
+   {\tt bool flat(vector< set<int> > \&sw, int n);}
+   que retorna verdadero si cada par de enteros (j,k) con 0<=j,k<n 
+   esta contenido en al menos uno de los conjunto en sw. 
+es-neg: Escribir una funcion predicado
+  {\tt bool es_neg(set<int> \&A,set<int> \&B);} que retorna verdadero
+  si el conjunto B contiene exactamente los mismos elementos 
+  que A, pero cambiados de signo. 
+en-todos: Escribir una funcion
+  predicado {\tt bool en\_todos(vector< set<int> > \&v)} que retorna
+  verdadero si existe al menos un elemento que pertenece a todos los
+  conjuntos v[j].
+mediana: Escribir una funcion
+  {\tt int mediana(list<int> \&L)} que retorna la mediana de los
+  valores contenidos en la lista {\tt L}. 
+[Tomados en el 3er parcial del 24-jun-2004]
+Keywords: conjunto
+
+----- connected.cpp -------------------
+
+   Dado un grafo como #map<int,set<int>> G# encontrar los subconjuntos del
+   mismo #list<set<int>> D# que estan desconectados. Por ejemplo, si 
+   #G={1->{2},2->{1},3->{4},4->{3}}#, 
+   entonces debe retornar #D=({1,2},{3,4})#. 
+   La signatura de la funcion a implementar es
+   #void connected(map<int,set<int>> &G, list<set<int>> &D);#
+
+   [Tomado en el 3er parcial 2008-11-20]. 
+   keywords: conjunto
+
+----- contenido.cpp -------------------
+
+   Escribir una funci\'on predicado 
+   {\tt bool contenido(btree<int> \&A, btree<int> \&B);}
+   que retorna verdadero si la estructura del \'arbol binario {\tt A} 
+   esta ``contenido'' dentro de la de {\tt B} y las etiquetas
+   correspondientes de {\tt A} son menores que las de {\tt B+}. 
+   [Tomado en el examen 2do parcial del 27/5/2004].
+   keywords: arbol binario
+
+----- contnprof.cpp -------------------
+
+  Escribir una funci\'on 
+  {\tt int cant\_nodos\_prof(btree<int> \&A, int prof);}
+  que retorna el n\'umero de nodos de una \'arbol binario {\tt A}
+  que est\'an a profundidad {\tt prof} o mayor. 
+
+----- countif.cpp -------------------
+
+   Escribir una funci\'on 
+  #int count_if(tree<int> &T,bool (*pred)(int x));# que retorna
+  el n\'umero de nodos del \'arbol #T# que satisfacen el
+  predicado #pred#. Por ejemplo, si #T=(1 2 (3 5 7 6) 4)#,
+  entonces #count_if(T,odd)# debe retornar 4. Escribir el
+  predicado #bool odd(int x)# que determina si un entero es
+  impar. 
+
+  Escribir una funci\'on 
+  #void list_if(tree<int> &T,list<int> &L,bool (*pred)(int x));# 
+  que retorna en #L#
+  la lista de valores nodales en orden previo de un \'arbol
+  ordenado orientado #T# que satisfacen el predicado
+  #pred#. Por ejemplo, si #T=(1 (-2 7 (8 -7) (3 -5 -6)))#,
+  entonces despu\'es de #list_if(T,L,positive)#, debe quedar
+  #L={1,7,8,3}#.  Escribir el predicado 
+  #bool positive(int x)# que determina si un entero es mayor que 0.
+  [Tomado en el 2do parcial 26/5/2005]. 
+  keywords: arbol orientado
+
+----- countlev.cpp -------------------
+
+   Escribir una funcion
+   #void count_level(tree<int> &T, int l),# que
+   cuenta cuantos nodos hay en el nivel #l# del arbol #T#. 
+   [Tomado en el TPL2 2013-10-12].
+   keywords: arbol orientado
+
+----- cum_sum_cola.cpp -------------------
+
+  Escribir una funci\'on 
+  #void cum_sum_cola (queue<int> &Q)# que modifica a la 
+  cola #Q# dejando la suma acumulada de sus elementos, es 
+  decir, si los elementos de #Q# antes de llamar a 
+  #cum_sum_cola(Q)# son #Q = (a_0,a_1,...,a_{n-1})#, 
+  entonces despu\'es de llamar a #cum_sum_cola(Q)# debe 
+  quedar #Q = (a_0, a_0 + a_1, ..., a_0 + a_1 + ... + a_n)#. 
+  [Tomado en el Primer Parcial 27-ABR-2004]
+   keywords: cola
+
+----- cum_sum_pila.cpp -------------------
+
+  Escribir una funci\'on 
+  #void cum_sum_pila (queue<int> &S)# que modifica a la 
+  pila #S# dejando la suma acumulada de sus elementos, es 
+  decir, si los elementos de #S# antes de llamar a 
+  #cum_sum_pila(S)# son #S = (a_0,a_1,...,a_{n-1})#, 
+  entonces despu\'es de llamar a #cum_sum_pila(S)# debe 
+  quedar #S = (a_0, a_0 + a_1, ..., a_0 + a_1 + ... + a_n)#. 
+  [Tomado en el Primer Parcial 27-ABR-2004]
+   keywords: pila
+
+----- cumsum-ab.cpp -------------------
+
+   Igual a #cumsum.cpp# pero ahora para AB. 
+   El #cumsum(v)# de un vector #v# es la suma acumulada, es
+   decir en la posicion #v[j]# debe quedar la suma de los
+   elementos de #v[0..j]#. Para un arbol lo podemos extender
+   diciendo que en cada nodo del arbol queda la suma de los
+   valores de los nodos de su subarbol ANTES de la
+   operacion. 
+   keywords: arbol binario
+
+----- cumsum.cpp -------------------
+
+   El #cumsum(v)# de un vector #v# es la suma acumulada, es
+   decir en la posicion #v[j]# debe quedar la suma de los
+   elementos de #v[0..j]#. Para un arbol lo podemos extender
+   diciendo que en cada nodo del arbol queda la suma de los
+   valores de los nodos de su subarbol ANTES de la
+   operacion. Por ejemplo si #T=(1 (2 (3 4 5 6))))# entonces
+   despues de #cumsum(T)# debe quedar #T=(21 (2 (18 4 5 6))))#. 
+   La version hacia abajo corresponde a que en cada camino
+   #n0,n1,...,nk# queden los valores #cumsum[*n0,*n1,...,*nk]#. 
+   keywords: arbol orientado
+
+----- cutoffmap.cpp -------------------
+
+  Implementar una funci\'on 
+  #void cutoff_map(map<int, list<int> > &M,int p,int q);#
+  que elimina todas las claves que NO estan en el rango
+  #[p,q)#. En las asignaciones que quedan tambien debe eliminar
+  los elementos de la lista que no estan en el rango. Si la lista queda
+  vacia entonces la asignacion debe ser eliminada. 
+  [Tomado en el primer parcial del cursado 2010, 2010-09-14.]
+  keywords: lista, correspondencia
+
+----- cyclic.cpp -------------------
+
+    Dada una correspondecia #M# y un elemento #x0#, podemos
+    generar una secuencia #(x0,x1,x2,...)# de la forma
+    #x_{k+1}=M(x{k})#. La secuencia se detiene cuando uno de
+    los valores #x_k# generados no pertenece a las claves de
+    #M#. En ese caso la secuencia generada es finita. Por
+    otra parte, puede ocurrir que un elemento de la
+    secuencia se repita, es decir #x_{k+m}=x_k# con
+    #m>0#. Es obvio que, a partir de alli la secuencia se va
+    a repetir indefinidamente. _Consigna:_ escribir una
+    Escribir una funcion 
+    #void cyclic(map<int,int> &M,list<int> &L);# 
+    que extrae en #L# todas aquellas
+    claves de #M# que generan una secuencia ciclica
+    infinita. Por ejemplo, si
+    #M={(1,2),(2,5),(3,4),(4,6),(5,2)}# entonces
+    #cyclic(M,L)# debe retornar #L=(1,2,5)#.
+    [Tomado en 1er parcial  25-SEP-2008].
+    keywords: correspondencia, lista
+
+----- dagdesc.cpp -------------------
+
+   Dados un Grafo Dirigido Aciclico (DAG) #G=(V,E)# y un
+   subconjunto de vertices #W\subseteq V#, determinar el conjunto
+   $D\subseteq V$ de *descendientes* de #W#, es decir #d\in D# si
+   y solo si existe un camino que va de algun nodo #w\in W# a #d#. 
+
+   [Tomado en el 3er parcial de 2012-11-22].  
+   keywords: conjunto, correspondencia
+
+----- decompint.cpp -------------------
+
+  A partir de un numero entero #m#
+  escribir una funcion #void decomp_int(int m, btree<int> &T);#
+  que construye el arbol binario #T# de la siguiente forma:
+  1) Si #m=0# da el arbol vacio
+  2) Si #m=1# contiene un solo nodo con el valor 1. 
+  3) Si #m>1#
+  3.a) En la raiz contiene #m#
+  3.b) En los hijos izquierdo y derecho contiene los valores
+    #mr=m/2# y #ml=m-mr#. 
+  3.c)  Propaga recursivamente la decomposicion a los nodos. 
+  Por ejemplo si #m=5# entonces el arbol generado es 
+  #(5 (3 (2 1 1) 1) (2 1 1))#. 
+   [Tomado en el segundo parcial 2011-10-27].
+   keywords: arbol binario
+
+----- depthif.cpp -------------------
+
+   Dados un arbol binario #T# encontrar la maxima profundidad de
+   un nodo tal que satisface un predicado dado. 
+   [Tomado en el 2do parcial del 2009-10-27].
+   keywords: arbol binario
+
+----- diffsym.cpp -------------------
+
+   Dada una lista de conjuntos de enteros 
+   #list< set<int> > l# escribir una funci\'on 
+   #void diffsym(list< set<int> > &L, set<int> &ad)# 
+   que retorna en #ad# el conjunto de los elementos que
+   pertenecen a uno y s\'olo uno de los conjuntos de #L#. 
+   Por ejemplo, si #L = ({1,2,3},{2,4,5},{4,6})# entonces
+   #ad# debe ser #{1,3,5,6}#. Notar que si el n\'umero
+   de conjuntos en #l# es 2 y los llamamos #A# y #B#, 
+   entonces debe retornar #ad = (A-B) union (B-A)#. 
+   [Tomado en el 3er parcial 23/6/2005]. 
+   keywords: conjunto
+
+----- elimina_valor.cpp -------------------
+
+  Escribir una funci\'on 
+  #void elimina_valor(queue<int> &Q, int n);}# que elimina todos 
+  las ocurrencias del valor #n# en la cola #Q#. Por ejemplo, 
+  si #Q = { 1,3,5,4,2,3,7,3,5 }# y #n=3#, despu\'es de 
+  #elimina_valor(Q,3)# debe quedar 
+  #Q = {1,5,4,2,7,5}#. 
+  Sugerencia: usar una estructura auxiliar lista o cola.
+  Restricciones: el algoritmo debe tener un tiempo de ejecuci\'on 
+  $O(n)$, donde $n$ es el n\'umero de elementos en la cola original.
+  [Tomado en Ex\'amen Final 08-JUL-2004]
+   keywords: cola
+
+----- eqclass.cpp -------------------
+
+   Dado un conjunto #S# y una relacion de orden 
+   #bool comp(int x,int y)# separar #S#, segun 
+   sus clases de equivalencia en una lista #list<set<int>> L#. 
+   Signatura: 
+   #void eqclass(set<int> &S, bool (*)(int x,int y),list<set<int>> &L)#
+
+   [Tomado en el 3er parcial 2008-11-20].  
+   keywords: conjunto
+
+----- es_biyectiva.cpp -------------------
+
+   Escribir una funci\'on #bool es_biyectiva (map <int,int> &A)#
+   que retorna true si la misma representa una funci\'on biyectiva,
+   esto es, si la correspondencia #A# describe una relaci\'on
+   {\it uno a uno}. Por ejemplo, supongamos el conjunto 
+   #X = (0,1,2,3,4,5)# y consideremos las correspondencias
+   #A1 = { (0,2), (1,5), (2,0), (3,3), (4,4), (5,1) }# y
+   #A2 = { (0,2), (1,1), (2,0), (3,3), (4,3), (5,1) }#. 
+   En el primer caso, cada elemento (de 0 a 5) tiene preimagen, 
+   por lo que #es_biyectiva (A1)# debe retornar #true#.
+   En cambio, en el segundo caso, los elementos 4 y 5 no tienen 
+   preimagen, por lo que #es_biyectiva (A2)# debe retornar 
+   #false#.
+   keywords: correspondencia
+
+----- espermut.cpp -------------------
+
+   Una correspondencia es una _permutacion_ si el conjunto de
+   los elementos del dominio (las claves) es igual al del contradominio
+   (los valores). Consigna: escribir una funcion
+   predicado #bool es_permutacion(map<int,int> &M)# que retorna
+   #true# si #M# es una permutacion y #false# si no lo es.
+   [Tomado en Primer Parcial 27-SET-2007].
+   keywords: correspondencia
+
+----- existspath.cpp -------------------
+
+   Escribir una funcion
+   #bool exists_path (map <int, list <int> > &M, int m, int n);# 
+   que dado un mapa #M#, que representa un grafo dirigido
+   determina si existe un camino de #m# a #n# en el grafo.
+   [Tomado en el 1er parcial de 2014-09-18].  
+   keywords: lista, correspondencia, cola, grafo
+
+----- expand.cpp -------------------
+
+   Escribir una funcion 
+   #void expand(list<int>  &L,int m);# 
+   que transforma los elementos de una lista #L# de tal
+   forma que todos los elementos de #L# resulten ser menores o igual
+   que #m#, pero de tal forma que su suma se mantenga inalterada. 
+   [Tomado en primer parcial 2011-09-15].
+   keywords: lista
+
+----- gatherset.cpp -------------------
+
+   Dado una serie de conjuntos de enteros #S_j#, con #j# en #[0,N_S)#
+   juntarlos entre si aquellos que tienen al menos un elemento en
+   comun. 
+   [Tomado en el TPL3 2013-11-09].
+   keywords: conjunto
+
+----- graphlayers.cpp -------------------
+
+   Dado un grafo #vector<set<int>> G# y un vertice de
+   partida #x# se desea determinar la estructuras de capas
+   de vecinos de #G# alrededor de #x# definida de la
+   siguiente forma: la capa 0 es #{x}#, la capa 1 son los
+   vecinos de #x#. A partir de alli la capa #n>=2# esta
+   formada por los vecinos de los nodos de la capa #n-1#
+   (es decir la _adyacencia_ de la capa) pero que no estan
+   en las capas anteriores (en realidad basta con verificar
+   que no esten en las capas #n-1# ni #n-2# ). 
+   [Tomado en tercer parcial 22-NOV-2007].
+   keywords: conjunto
+
+----- graphs1.cpp -------------------
+
+   Ejercicios usando conjuntos en grafos.
+   keywords: conjunto, correspondencia
+
+----- incall.cpp -------------------
+
+   Dados #n# conjuntos #A_0#, #A_1#, ... #A_{n-1}# determinar si 
+   alguno de ellos (digamos #A_j# ) incluye a todos los otros. 
+   Es decir #A_j\subset A_k# para todo #k#. En ese caso, 
+   retornar el indice #j#, si no retornar -1. 
+   #int includes_all(vector< set<int> > &setv);#
+   [Tomado en tercer parcial 22-NOV-2007].
+   keywords: conjunto
+
+----- incluido.cpp -------------------
+
+   Escribir un predicado
+   #bool incluido(set<int> &A, set<int> &B);# que retorna verdadero
+   si y solo si #A# esta incluido en #B#. 
+   [Tomado en el 3er parcial 23/6/2005]. 
+   keywords: conjunto
+
+----- intercala.cpp -------------------
+
+   Escriba procedimientos para intercalar ({\it merge}): 
+   (i) dos listas ordenadas {\tt L1} y {\tt L2} en una nueva lista 
+   {\tt L}; (ii) un vector {\tt VL} de {\tt n} listas ordenadas 
+   como nueva lista {\tt L}. Notar que {\it intercalar} ({\it merge}) 
+   implica en ambos casos que la nueva lista {\tt L} debe resultar 
+   tambi\'en {\it ordenada}.
+   keywords: lista
+
+----- intercola.cpp -------------------
+
+   Dada una cola #Q# de enteros de longitud par, escribir una
+   funcion #void intercalarCola(queue<int>& Q),# que intercale
+   los elementos de la primera mitad de la cola con los
+   elementos de la segunda mitad.
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: cola
+
+----- intersecmap.cpp -------------------
+
+   Implemente una funci\'on
+   #void intersect_map(map< string,list<int> > &A,#
+   #map< string, list<int> > &B,map< string, list<int> > &C)#
+   que a partir de los diccionarios #A# y #B# construye un 
+   diccionario #C# de manera que las claves de #C# son la
+   interseccion de las claves de #A# y #B# y para cada clave #k# en
+   #C# la imagen #C[k]# es la interseccion de los valores en 
+   #A[k]# y #B[k]#. 
+   [Tomado en Primer Parcial 17-SET-2009].
+   keywords: correspondencia, lista
+
+----- inverse.cpp -------------------
+
+   Dada una correspondencia #M# y asumiendo que es
+   _invertible_ o _biunivoca_ (esto es, todos
+   los valores del contradominio son distintos), la
+   correspondencia `inversa' #N# es aquella
+   tal que, si #y=M[x]#, entonces #x=N[y]#. Por
+   ejemplo, si #M={(0,1),(1,2),(2,0)}#, entonces la
+   inversa es #N={(1,0),(2,1,(0,2))}#. _Consigna:_
+   Escribir una funci\'on 
+   #bool inverse(map<int,int> &M,map<int,int> &N)# 
+   tal que, si #M# es invertible,
+   entonces retorna true y #N# es su inversa. En caso
+   contrario retorna falso y #N# es la correspondencia
+   `vacia' (sin asignaciones)
+   [Tomado en el 1er parcial del 20/4/2006].
+   keywords: lista, correspondencia
+
+----- isbalanced.cpp -------------------
+
+  Un arbol binario (AB) es balanceado si
+  1) Es el arbol vacio o,
+  2) Sus subarboles derecho e izquierdo son balanceados, y sus
+    alturas difieren a lo sumo en 1
+  Consigna: Escribir una funcion #bool is_balanced(btree<int> &T);#
+  que determina si el arbol esta balanceado. 
+   [Tomado en el segundo parcial 2011-10-27].
+   keywords: arbol binario
+
+----- ishamilt.cpp -------------------
+
+   Dado un grafo #map<int, set<int> >G#
+   y una lista de vertices #list<int> L# determinar si #L# es un
+   _camino hamiltoniano_ en #G#. 
+   [Tomado en tercer parcial 2011-11-24].
+   keywords: conjunto, grafo
+
+----- isindep.cpp -------------------
+
+   escribir un predicado 
+   #bool is_indep(map<int, set<int> >&G,set<int>&S);#
+   que determina si #S# es un conjunto
+   _independiente_ de #G#. Se dice que #S# es un conjunto
+   independiente de #G#, si para cada par de vertices de #S#, NO existe una
+   arista que los une en #G#.
+   [Tomado en tercer parcial 2011-11-24].
+   keywords: conjunto, grafo
+
+----- ismapped.cpp -------------------
+
+   Dados dos conjuntos #set<int> A,B# y una funcion *biyectiva*
+   #int f(int)# determinar si es #B=f(A)# es decir *todos* los
+   elementos de #B# se obtienen como imagen de #A# aplicando #f()#.\\
+
+   [Tomado en el 3er parcial de 2012-11-22].  
+   keywords: correspondencia
+
+----- ismapset.cpp -------------------
+
+    Escribir una funci\'on predicado
+    #bool is_mapped_set(set<int> &A,set<int> &B,int (*mapfun)(int));#
+    que retorna verdadero si el conjunto #B# contiene los elementos
+    de #A#, mapeados via la funcion #mapfun#. 
+    [Tomado en recuperatorio 29-NOV-2007].
+    keywords: conjunto
+
+----- isrotation.cpp -------------------
+
+   Determinar si una correspondencia !+map<int,int> M+ es una
+   \emph{``rotacion''} es decir, una permutacion tal que cada elemento
+   del conjunto de las claves es asignado al siguiente elemento, en
+   cierto orden. 
+   [Tomado en primer parcial 2011-09-15].
+   keywords: correspondencia, lista
+
+----- isshift.cpp -------------------
+
+   Dados dos grafos escribir una funcion
+   #bool is_shift(graph_t &G1,graph_t &G2,int m);#
+   que determina si #G2# es un `shift' de #G1#, es
+   decir la arista #(x,y)# esta en #G1# si y solo si #(x+m,y+m)#
+   esta en #G2#.
+   [Tomado en el TPL2 2013-10-12].
+   keywords: correspondencia
+
+----- isspngtree.cpp -------------------
+
+   Dado un grafo #G#, y un arbol #T#, decimos que #T# "expande" a
+   #G# si la raiz #n# de #T# es un vertice de #G#, y los caminos de
+   #T# permiten llegar desde #n# hasta cualquier otro nodo de #G#.
+   Escribir una funcion #bool is_spng_tree(G,T)# (por
+   "is-spanning-tree") que determina si #T# expande a #G#.
+   [Tomado en el 3er parcial del 2009-11-27].
+   keywords: conjunto, correspondencia
+
+----- issublist.cpp -------------------
+
+   Escribir una funcion #bool# #is_sublist(list<int> &L1,# #list<int> &L1,#
+   #list<list<int>::iterator> &iters);# que dadas dos listas
+   #list<int> L1,L2# determina si la lista #L2# es una sublista de
+   #L1#, es decir que #L2# se puede obtener a partir de #L1# solo
+   eliminando algunos de sus elementos.
+   [Tomado en primer parcial 2011-09-13].
+   keywords: lista
+
+----- josephus.cpp -------------------
+
+  Resoluci\'on del problema de Josephus usando la clase <list> 
+  de las STL.
+  keywords: lista
+
+----- junta.cpp -------------------
+
+  Escribir una funci\'on {\tt void junta (list <int> &L, int n)}
+  que, dada una lista {\tt L}, agrupa de a {\tt n} elementos
+  dejando su suma IN PLACE. Por ejemplo, si la lista {\tt L} 
+  contiene L=(1,3,2,4,5,2,2,3,5,7,4,3,2,2), entonces depu\'es de
+  {\tt junta (L,3)} debe quedar L=(6,11,10,14,4). Prestar atenci\'on 
+  a no usar posiciones inv\'alidas despu\'es de una supresi\'on. 
+  El algoritmo debe tener un tiempo de ejecuci\'on {\tt O (m)}, 
+  donde {\tt m} es el n\'umero de elementos en la lista original. 
+  [Tomado en el examen final del 1/8/2002] 
+  keywords: lista
+
+----- lesser.cpp -------------------
+
+   Se define una relaci\'on de orden entre AOO de enteros de
+   la siguiente forma: #A<B# si
+   #(na,c0a,c1a,c2a...)<(nb,c0b,c1b,c2b...)#, donde #na# es
+   la raiz de #A#, #h0a# el subarbol del primer hijo de #A#
+   y asi siguiendo. En la expresion anterior se toma el orden 
+   lexicografico para listas y se asume que en caso de tener 
+   longitudes diferentes se completa con -infinito. 
+   keywords: arbol orientado
+
+----- lexico_stack.cpp -------------------
+
+   Escribir una funci\'on #void lexico_stack(int n);#
+   que genera todas las subsecuencias ordenadas de 
+   la secuencia (1..n). Por ejemplo, si #n=4# debe 
+   generar (1), (12), (123), (124), (13), 
+   (134), (14) (2), (23), (234) (24), (3), (34) y (4). 
+   [Tomado en el 1er parcial del 21/4/2005].
+   keywords: pila
+
+----- lisp2tree.cpp -------------------
+
+   Esta version delega la conversion de string a #T# al
+   #operator>>(istream,T)...# entonces se hace generico y
+   funciona para cualquier tipo de dato al que se le pueda
+   hacer un #cin>>d;#
+
+   keywords: arbol orientado
+
+----- list2tree.cpp -------------------
+
+   Escribir una funcion #list2tree(tree<int> &T,list<int> &L);# 
+   que dada una lista #L# con el orden previo de #T# y el tamano
+   de sus subarboles reconstruye #T#. La forma de almacenar el
+   arbol en #T# es la siguiente: se almacena en orden previo 2 
+   valores enteros por cada nodo, a saber el contenido del nodo y 
+   el numero de hijos. Por ejemplo para el arbol 
+   #(6 4 8 (5 4 4) 7 9)# se tenemos
+   #L=(6 5 4 0 8 0 5 2 4 0 4 0 7 0 9 0)#. 
+   Escribir tambien la funcion inversa #tree2list(tree<int> &T,list<int> &L);# 
+   [Tomado en el 2do parcial de 2010, 2010-10-28]
+   Keywords: arbol orientado
+
+----- lista_cte.cpp -------------------
+
+   Dada una lista #L# de enteros escribir una funci\'on 
+   #bool es_constante (list <int> &L)#
+   que retorna true solo si todos sus elementos son iguales.
+   Hacerlo con (i) s\'olo operaciones del TAD lista y (ii) 
+   mediante una correspondencia.
+   Escriba un procedimiento #void imprime (map <int,int> &M);#
+   para imprimir una correspondencia.
+   keywords: lista, correspondencia
+
+----- listarbb.cpp -------------------
+
+ Listado de \'arboles binarios en diferentes ordenes.
+ Keywords: arbol binario
+
+----- listarbo.cpp -------------------
+
+  Listado de \'arboles orientados en diferentes ordenes.
+  keywords: arbol orientado
+
+----- listasumas.cpp -------------------
+
+   Dada una lista #L,# encuentre y retorne la sublista cuya
+   suma sea #S.# Si no existe ninguna sublista con dicha suma,
+   retorne la lista vacia. En caso de haber varias listas
+   que cumplan retorne la primera y la mas corta. 
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: lista
+
+----- listd.h -------------------
+
+   Clase de listas doblemente enlazadas con punteros. 
+   keywords: lista
+
+----- map2count.cpp -------------------
+
+   Escribir una funcion 
+   #void map2count(tree<int> &A,tree<int> &B);# que construye un arbol #B#
+   a partir de otro dado #A# tal que #B# tiene la misma estructura
+   que #A#, y el valor en el nodo #nB# de #B# es la cantidad de
+   hojas en el subarbol del nodo correspondiente #nA# en #A#. 
+
+   [Tomado en el final de 2012-12-06].  
+   keywords: arbol orientado
+
+----- map2list.cpp -------------------
+
+   Escribir las funciones #map2list()#
+   y #list2map()# de acuerdo a las siguientes especificaciones. 
+   #void map2list(map<int,int> &M,list<int> &keys,list<int> &vals);#
+   dado un map #M# retorna las listas de claves y valores. 
+   #void list2map(list<int> &keys,list<int> &vals,map<int,int> &M);#
+   dadas las listas de claves #(k1,k2,k3...)# y valores #(v1,v2,v3...)#
+   retorna el map #M# con las asignaciones correspondientes
+   #{(k1,v1),(k2,v2),(k3,v3),...}#.  (Nota: Si hay
+   *claves repetidas*, solo debe quedar la asignacion
+   correspondiente a la *ultima* clave en la lista. Si hay menos
+   valores que claves, utilizar cero como valor. Si hay mas valores
+   que claves, ignorarlos).
+   [Tomado en Primer Parcial 17-SET-2009].
+   keywords: correspondencia, lista
+
+----- mapoddeven.cpp -------------------
+
+   Dada una lista de enteros #L#, construir el #map<int,list<int>># que mapea
+   cada elemento impar de la lista al mayor rango que sigue al elemento
+   pero solo constituido de elementos pares, por ejemplo si
+   #L=(9,10,6,7,6,8,6,10,2,7)#, entonces
+   #M= [9->(10,6),7->(6,8,6,10,2)]#
+   [Tomado en el recup de laboratorio de 2012-10-17].  
+   keywords: lista, correspondencia
+
+----- mapprepost.cpp -------------------
+
+   Escribir una funci\'on 
+   #void map_pre_post(tree<int> &T,list<int> &L, int (*fpre)(int),int (*fpost)(int))#
+   que lista los valores nodales del \'arbol ordenado orientado
+   #T# en una mezcla de orden previo y posterior, donde en orden 
+   previo se listan los valores nodales aplicandoles #fpre()# y en 
+   orden posterior los #fpost()#.   
+   Por ejemplo, si #T=(1 3 (5 6 7 8))#, #f(x)=x# y #g(x)=x+1000#,
+   entonces #map_pre_post(T,L,f,g)# debe dar 
+   #L=(1,3,1003,5,6,1006,7,1007,8,1008,1005,1001)#. 
+   [Tomado en el recup 30/6/2005]. 
+   keywords: arbol orientado, lista
+
+----- matrices.cpp -------------------
+
+   Multiplicar cuatro matrices de n\'umeros reales 
+   {\tt M1 M2 M3 M4}, donde {\tt M1} tiene 
+   10 filas y 20 columnas, {\tt M2} es de 20 por 50, {\tt M3} 
+   es de 50 por 1 y {\tt M4} es de 1 por 100. Asuma que la 
+   multiplicaci\'on de una matriz {\tt A (p,q)} por otra 
+   {\tt B (q,r)} requiere {\tt z = p q r} operaciones 
+   escalares (que es el n\'umero de operaciones requerido por el
+   algoritmo de multiplicaci\'on de matrices). Encuentre
+   un orden \'optimo en que se deben multiplicar las 
+   matrices para minimizar el n\'umero total de operaciones 
+   escalares. Como podria encontrarlo si hay una
+   cantidad arbitraria de matrices de dimension arbitraria ?
+   keywords: algoritmos
+
+----- maxcota_bo.cpp -------------------
+
+  Escribir una funci\'on int maxcota (tree <int> & t, node_t n, 
+  const int & cota) que retorna el m\'aximo de las etiquetas de un 
+  \'arbol ordenado orientado tales que son menores o iguales 
+  que la cota dada. Por ejemplo, si las etiquetas del \'arbol 
+  A son (1,3,7,4,2,10,13) y cota=8, entonces 
+  maxcota (raiz (A), A, 8) debe retornar 7.
+  keywords: arbol orientado
+
+----- maxshare.cpp -------------------
+
+   Dado una serie de conjuntos de enteros #S_j#, con #j# en #[0,N_S)#
+   y otro conjunto #W# encontrar aquel #S_k# cuya interseccion con
+   #W# tiene el maximo tamano.
+   [Tomado en el TPL3 2013-11-09].
+   keywords: conjunto
+
+----- mergemap.cpp -------------------
+
+    Dadas dos correspondencias #A# y #B#, que asocian
+    enteros con listas ordenada de enteros, escribir una
+    funcion 
+    #void merge_map(map<int,list<int>> &A, map<int,list<int>> &B, map<int,list<int>> &C)# que
+    devuelve en #C# una correspondencia que asigna al
+    elemento #x# la fusion ordenada de las dos listas #A[x]#
+    y #B[x]#. Si #x# no es clave de #A#, entonces #C[x]#
+    debe ser #B[x]# y viceversa. Por ejemplo:
+    si #M={(1,2),(2,5),(3,4),(4,6),(5,2)}# entonces #cyclic(M,L)#
+    debe dejar #L=(1,2,5)#. 
+    [Tomado en 1er parcial  25-SEP-2008].
+    keywords: correspondencia, lista
+
+----- mkmirror.cpp -------------------
+
+  Escribir una funcion #void make_mirror(tree<int> &T);# que
+  convierte in-place al arbol #T# en su espejo. 
+   [Tomado en segundo parcial 2011-10-27].
+   keywords: arbol orientado
+
+----- nilpot.cpp -------------------
+
+   Dada una correspondencia #M# tal que el 
+   conjunto de sus valores es igual al conjunto 
+   de sus claves, encontrar el \'i{}ndice 
+   nilpotente, de la misma, es decir el n\'umero de 
+   veces #n# que hay que componerla consigo misma 
+   hasta llegar a la identidad, es decir #M^n = I#. 
+   _Consigna:_  Escribir una funci\'on
+   #int nilpot(map<int,int> &M);# que dada una correspondencia
+   #M# retorna el m\'\i{}nimo entero \verb+n+ tal que #M^n=I#.
+   [Tomado en el 1er parcial 21/4/2005]. 
+   keywords: correspondencia
+
+----- nngbr1d.cpp -------------------
+
+   Dada una lista de enteros 
+   implemente una funcion 
+   #void nearest_neighbor_1d(list<int> &L, int v);# 
+   que ordene la lista de acuerdo a la distancia en valoe absoluto
+   al valor de referencia #v# pasado como argumento.
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: lista
+
+----- nullsum.cpp -------------------
+
+   Escribir una funcion #bool nullsum(list<int> &L, list<int> &L2);# 
+   que dada una lista #L#, determina si hay
+   un rango de iteradores no vacio #[p,q)# tal que su suma
+   sea 0. Adicionalmente: escribir una funcion #void#
+   #nullsum_filt(map<int,list<int>> &M, map<int,list<int>>#
+   #&M2);# que extrae de todos los pares de asignacion
+   #(k,L)# para los cuales #L# tiene un rango de suma zero,
+   e inserta en #M2# la asignacion #(k,L')# donde #L'# es el
+   rango de #L# que tiene suma 0.
+   [Tomado en el parcial de laboratorio de 2012-10-06].  
+   keywords: lista, correspondencia
+
+----- odd2even.cpp -------------------
+
+   Dada una lista #L+, escribir una funcion #void odd2even(list<int>#
+   #&L,map<int,list<int>> &M);# que mapea cada elemento impar de #L# a la
+   siguiente subsecuencia de elementos pares. 
+   [Tomado en el TPL2 2013-10-12].
+   keywords: correspondencia, lista
+
+----- open_hash_set.cpp -------------------
+
+  Diccionarios con tablas de dispersion abierta:
+  dado el archivo de cabecera {\tt hash_set.h}, escriba
+  el correspondiente archivo {\tt open_hash_set.cpp} con la 
+  implementaci\'on de las funciones indicadas a continuaci\'on,
+  (i)  Sencillas:
+       {\tt erase (iterator_t p)},
+       {\tt clear ()},
+       {\tt size ()};
+  (ii) M\'as elaboradas: 
+       {\tt insert (const key_t & x)}; 
+       {\tt find (const key_t & x)}; 
+       {\tt erase (const key_t & x)}.
+  Keywords: conjunto, diccionario
+
+----- orden_nivel.cpp -------------------
+
+  El listado en orden de nivel de los nodos de un \'arbol lista
+  primero la raiz, luego todos los nodos de profundidad 1, despu\'es
+  todos los de profundidad 2, y asi sucesivamente. Los nodos que
+  est\'en en la misma profundidad se listan en orden de izquierda a
+  derecha.  Escribir una funci\'on 
+  {\tt void orden_de_nivel (tree <int> &t)} para listar los nodos 
+  de un \'arbol en orden de nivel. 
+  keywords: arbol orientado
+
+----- ordenag.cpp -------------------
+
+  Escribir una funci\'on {\tt void ordenag (list <int> &l, int m)} 
+  que, dada una lista {\tt l}, va ordenando sus elementos de a grupos 
+  de {\tt m} elementos. Por ejemplo si m=5, entonces {\tt ordenag} 
+  ordena los primeros 5 elementos entre si, despues los siguientes 
+  5 elementos, y asi siguiendo. Si la longitud {\tt n} de la lista 
+  no es un m\'ultiplo de {\tt m}, entonces los \'ultimos 
+  {\tt n mod m} elementos tambi\'en deben ser ordenados entre si. 
+  Por ejemplo, si l = (10 1 15 7 2 19 15 16 11 15 9 13 3 7 6 12 1), 
+  entonces despu\'es de {\tt ordenag (5)} debemos tener
+  l = (1 2 7 10 15 11 15 15 16 19 3 6 7 9 13 1 12).  
+  [Tomado en el examen final del 5-Dic-2002].  
+  keywords: lista
+
+----- ordnodo.cpp -------------------
+
+   Escribir una funci\'on predicado 
+   #bool ordnodo(tree<int> &A);# que verifica si cada secuencia de
+   hermanos del sub\'arbol del nodo #n# (perteneciente
+   al \'arbol ordenado orientado #A# est\'an ordenadas
+   entre s\'\i{}, de izquierda a derecha. Por ejemplo, para
+   el \'arbol #(3 5 (6 1 3) (7 4 5))# deber\'\i{}a
+   retornar #true#, mientras que para 
+   #(3 9 (6 1 3) (7 4 2))# deber\'\i{}a retornar #false#, ya que
+   las secuencias de hermanos #(9 6 7)# y #(4 2)#
+   NO est\'an ordenados. Se sugiere el siguiente algoritmo:
+   para un dado nodo retornar false si: 1) sus hijos no
+   estan ordenados o 2) algunos de sus hijos contiene en su
+   sub\'arbol una secuencia de hermanos no ordenada. 
+   (recursividad). Caso contrario retorna verdadero. 
+   [Tomado en el final del 28/7/2005]. 
+   keywords: arbol orientado
+
+----- parc120140918.cpp -------------------
+
+  stack-sep: Dada una pila #S#, escribir una funcion que deja en el tope los
+  elementos pares y en el fondo los impares. El algoritmo
+  debe ser *estable* es decir que los pares deben estar en el mismo
+  orden entre si y los impares tambien. 
+  exists-path: Dado un mapa #M# que representa un grafo
+  dirigido, y dos nodos #m#, #n# determinar si existe un camino
+  que va del vertice #m# al #n#.
+  extractm: Dada una lista #L#, y un entero #m#, escribir
+  una funcion 
+  #void extractm(list<int> &L,int m,list<int> &Lm);#
+  que genere una lista #Lm# con todos los elementos
+  que aparecen exactamente #m# veces en #L#.
+  [Tomado en el 1er parcial de 2014-09-18].  
+  keywords: lista, correspondencia
+
+----- parcord.cpp -------------------
+
+  Recordemos que un \'arbol es parcialmente ordenado si
+  dados dos nodos #m#, #n# tal que #m# es hijo de #n#,
+  entonces el valor de #m# es mayor o igual al de #n#.
+  Consigna: Escribir un predicado 
+  #bool es_parcialmente_ordenado(tree<int> &T,bool (*comp)(int,int)#, 
+  que verifica si el \'arbol ordenado
+  orientado #T# es parcialmente ordenado con respecto a la
+  funci\'on de comparaci\'on #comp()#.
+  [Tomado en el examen final 7/7/2005]. 
+  keywords: arbol orientado
+
+----- parent.cpp -------------------
+
+  Control de par\'entesis en una expresi\'on algebraica usando
+  TAD-PILA de caracteres. Por parentizaci\'on en una expresi\'on
+  algebraica consideramos \'unicamente los simbolos: par\'entisis, 
+  corchetes y llaves.
+  keywords: pila
+
+----- parimpa.cpp -------------------
+
+   Escribir una funci\'on {\tt 
+   void encolar\_trabajo (queue <int> &par, queue <int> &impar, int job)} 
+   que, dado un c\'odigo de trabajo n lo pone o bien en la cola 
+   {\tt par}, o bien en la cola {\tt impar}, dependiendo del n\'umero 
+   {\tt job}. Escribir una funci\'on {\tt 
+   int siguiente_trabajo (queue <int> &par, queue <int> &impar)} 
+   que obtiene el siguiente trabajo a procesar, dando mayor prioridad 
+   a la cola {\tt par}.
+   keywords: cola 
+
+----- particiona.cpp -------------------
+
+  Usando las operaciones del TAD lista, escribir una funci\'on
+  {\tt void particiona (list<int> &L, int a)} la cual, dada una lista 
+  de enteros {\tt L}, reemplace aquellos que son mayores que {\tt a}
+  por una sucesi\'on de elementos menores o iguales que {\tt a} 
+  pero manteniendo la suma total constante.
+  [Ejercicio tomado en el Ex\'amen Final del 05/07/01]
+  keywords: lista
+
+----- print_back.cpp -------------------
+
+   Escriba una funci\'on 
+   {\tt void print_back (list<int> & L, list <int> :: iterator p)} que,
+   en forma {\it recursiva}, imprima una lista en sentido inverso, 
+   es decir, desde el final al principio de la lista.  Se le da 
+   como dato el procedimiento a la primera posici\'on de la lista.  
+   [Ejercicio 3 del final del 14/02/2002]
+   keywords: lista
+
+----- propsubset.cpp -------------------
+
+   Dada una lista de conjuntos
+  #list< set<int> > L#, escribir una funci\'on predicado 
+  #bool proper_subset(list< set<int> > &L)#, que determina si los
+  conjuntos de la lista #L# son subconjuntos propios en forma
+  consecutiva. Es decir, si #L = (A_0, A_1, ...., A_{n-1})#, 
+  determinar si #A_j# es subconjunto propio de #A_{j+1}#, 
+  para #j=0,...,n-2#. 
+  [Tomado en el examen final 7/7/2005]. 
+  keywords: conjunto
+
+----- ralea.cpp -------------------
+
+  Usando las operaciones del TAD lista, escribir una funci\'on 
+  {\tt void random_shuffle (list <int> &L)} que, dada una lista 
+  de enteros {\tt L}, reordena sus elementos en forma aleatoria.  
+  Se sugiere el siguiente algoritmo: usando una lista auxiliar 
+  {\tt Q} se van generando n\'umeros enteros desde 0 a 
+  {\tt length (L) - 1}. Se extrae el elemento j-\'esimo de
+  {\tt l} y se inserta en {\tt Q}. Finalmente, se vuelven a 
+  pasar todos los elementos de la cola {\tt Q} a la lista {\tt L}. 
+  [Ejercicio tomado en el Ex\'amen Final del 05/07/01]
+  keywords: lista
+
+----- reemplaza.cpp -------------------
+
+  Dada una lista de enteros {\tt L} y dos listas {\tt SEQ} y 
+  {\tt REEMP} escribir una funci\'on {\tt 
+  void reemplaza (list<int> &L, list<int> &SEQ, list<int> &REEMP)}  
+  que busca todas las secuencias de {\tt SEQ} en {\tt L} y las 
+  reemplaza por {\tt REEMP}. Por ejemplo, si 
+  L=(1 2 3 4 5 1 2 3 4 5 1 2 3 4 5), SEQ=(4 5 1) y REEMP=(9 7 3), 
+  entonces despues de llamar a {\tt reemplaza} debe quedar
+  L=(1 2 3 9 7 3 2 3 9 7 3 2 3 4 5). Este procedimiento tiene 
+  un efecto equivalente a la funci\'on {\tt reemplazar} de los 
+  editores de texto.
+  [Tomado el 1er parcial, 16 abril 2002]
+  keywords: lista
+
+----- refina.cpp -------------------
+
+  (a) Escriba una funci\'on
+  void refina (list<double> &L, double delta) tal que dada una 
+  lista inicial de reales clasificados de menor a mayor {\tt L}, 
+  refina inserta elementos entre los de {\tt L}, de tal modo que 
+  la diferencia m\'axima entre elementos de la lista final
+  sea menor o igual que delta;
+  (b) Escriba una funci\'on
+  void desrefina (list<double> &L, double delta) tal que dada 
+  una lista inicial de reales clasificados de menor a mayor
+  {\tt L}, desrefina suprime elementos de {\tt L}, de tal modo 
+  que la diferencia minima entre elementos de la lista final
+  sea mayor o igual que delta.
+  keywords: lista
+
+----- rejunta.cpp -------------------
+
+  Usando las operaciones del TAD lista, escribir una funci\'on
+  {\tt void rejunta (list<int> &L, int A)} que, dada una lista 
+  de enteros {\tt L}, agrupe elementos de tal manera que en la
+  lista queden solo elementos mayores o iguales que {\tt A}. El 
+  algoritmo recorre la lista y, cuando encuentra un elemento menor,
+  empieza a agrupar el elemento con los siguientes hasta
+  llegar a {\tt A} o hasta que se acabe la lista. Por ejemplo,
+  si L=[3,4,2,4,1,4,4,3,2,2,4,1,4,1,4,4,1,4,4,2], entonces
+  rejunta (L,10) da L=[13,12,13,10,10]. En la lista final
+  NO deben quedar elementos menores que {\tt A} salvo,
+  eventualmente, el \'ultimo.
+  [Ejercicio tomado en el Ex\'amen Final del 05/07/01]
+  keywords: lista
+
+----- reversedag.cpp -------------------
+
+   Dados un Grafo Dirigido Aciclico (DAG) #G=(V,E)# obtener el
+   DAG #G'=(V,E')# tal que si #(v,w)\in E# entonces #(w,v)\in E'#. (Es
+   decir, equivale a invertir el sentido de las flechas en el dibujo).
+
+   [Tomado en el 3er parcial de 2012-11-22].  
+   keywords: conjunto, correspondencia
+
+----- rotacion.cpp -------------------
+
+   Escribir una funci\'on {\tt void rotacion (queue <int> &C)}, 
+   la cual saca una cierta cantidad de enteros del frente de la 
+   cola {\tt C} y los vuelve a insertar en fin de la misma, de 
+   tal manera que quede en el frente de cola un n\'umero par. 
+   Por ejemplo, si C = [1, 3, 5, 2, 4] entonces, despu\'es de 
+   {\tt rotacion (C) }, debe quedar C = [2, 4, 1, 3, 5].
+   Ejercicio tomado en el 1er parcial, 16/04/02.
+   keywords: cola
+
+----- rotneg.cpp -------------------
+
+   Dada una cola #Q,# escribir una funcion 
+   #void rotneg(queue<int> &Q);# 
+   que rota los elementos (es decir extraer del frente e
+   insertar en la cola) de tal forma que el elemento que quede
+   en el frente debe ser negativo. Por ejemplo si
+   #Q=(1,2,3,-2,7,8,9)# entonces debe quedar #Q=(-2,7,8,9,1,2,3).#
+
+   *Nota:* Esta garantizado que al menos hay un numero negativo en la cola
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: cola
+
+----- sccount.cpp -------------------
+
+   Cuenta la cantidad de "hijos unicos" de un arbol binario. 
+   [Tomado en el TPL3 2013-11-09].
+   keywords: arbol binario
+
+----- set_vector_bit.h -------------------
+
+  Dado el siguiente archivo de cabecera {\tt set.h} escriba
+  el correspondiente archivo {\tt set.cpp} con la implementaci\'on
+  de las funciones indicadas a continuaci\'on:
+  (i) Sencillas:
+      {\tt end ()},
+      {\tt erase (iterator_t p)},
+      {\tt clear ()},
+      {\tt retrieve (iterator_t p)};
+  (ii) M\'as elaboradas:
+      {\tt size ()},
+      {\tt insert (const elem_t & x)},
+      {\tt find (const elem_t & x)},
+      {\tt erase (const elem_t & x)};
+  (iii) Binarias:
+      {\tt set_union (set &A,set &B, set &C)},
+      {\tt set_intersection (set &A,set &B,set &C)},
+      {\tt set_difference (set &A,set &B,set &C)}.
+   Nota: {\tt N} es la cantidad de elementos del conjunto 
+   universal, asuma que es una variable global ya definida.
+  Keywords: conjunto
+
+----- smoothing.cpp -------------------
+
+   Dada una lista de enteros #L,# se pide que implemente un
+   filtro de suavizado de ventana fija de tamano #w,# con las
+   siguientes caracteristicas: El primer elemento sera el
+   promedio (en division entera) de los primeros #w# elementos
+   de #L,# El segundo sera el promedio desde el 2 elemento al
+   #w+1# en general, el elemento en la posicion #N# de la lista
+   resultado, sera el promedio entre los elementos #[N,w+N)#
+   de #L.#
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: lista
+
+----- sorted_list1.cpp -------------------
+
+   Escriba procedimientos para insertar, suprimir y buscar    
+   un elemento en una lista ordenada {\tt L}. 
+   Versi\'on {\bf sin} {\tt funciones gen\'ericas} 
+   (comparar con {\tt sorted_list2.cpp} y {\tt sorted_list3.cpp}). 
+   keywords: lista
+
+----- sorted_list2.cpp -------------------
+
+   Escriba procedimientos para insertar, suprimir y buscar    
+   un elemento en una lista ordenada {\tt L}. 
+   Versi\'on {\bf \'unicamente} con {\tt funciones gen\'ericas} 
+   (comparar con {\tt sorted_list1.cpp} y {\tt sorted_list3.cpp}). 
+   keywords: lista
+
+----- sorted_list3.cpp -------------------
+
+   Escriba procedimientos para insertar, suprimir y buscar    
+   un elemento en una lista ordenada {\tt L}. 
+   Versi\'on mediante una {\tt clase gen\'erica} 
+   (comparar con {\tt sorted_list1.cpp} y {\tt sorted_list2.cpp}). 
+   keywords: lista
+
+----- splitd.cpp -------------------
+
+   Dados dos enteros #M# y #n#, tales que #n<M# crear un
+   arbol binario completo (ABC) #T# tal que: 1) La suma de
+   las hojas es #M#, pero cada una de ellas es #h<=n#. 2) Se
+   satisface que para cada nodo #n# la suma de sus dos hijos
+   #l# y #r# es #n=l+r#. Ayuda: El arbol se puede construir
+   poniendo inicialmente #M# en la raiz, y dividiendo cada nodo 
+   por 2 hasta obtener valores #<=n#. 
+   keywords: arbol binario
+
+----- splitdaoo.cpp -------------------
+
+   Dados dos enteros #M# y #n#, tales que #n<M# crear un AOO
+   #T# tal que: 1) La suma de las hojas es #M#, pero cada
+   una de ellas es #h<=n#. 2) Se satisface que para cada
+   nodo #p# la suma de sus hijos es #*p#. 3) Cada nodo tiene
+   a lo sumo #g# hijos, con #g>1# una constante dada.
+   Ayuda: El arbol se puede construir poniendo inicialmente
+   #M# en la raiz, y dividiendo el contenido #*n# de cada
+   nodo en #g# valores aprox iguales hasta obtener valores
+   #<=n#. [Tomado en el 2do parcial del 2009-10-27].
+   keywords: arbol orientado
+
+----- splitrange.cpp -------------------
+
+   Dada una lista de enteros #L# y dos enteros #k1,k2# (con
+   #k1<=k2)# escribir una funcion 
+   #void split_range(list<int>& L,#   
+   #int k1,int k2,list<int>& L1,list<int>& L2,list<int>& L3);#
+   que divide los elementos de #L# en 3 listas #L1,L2,L3# donde
+   respectivamente deben quedar los elementos #x# en los rangos
+   #x<k1,# #k1<=x<k2,# #x2<x.#
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: lista
+
+----- submap.cpp -------------------
+
+  // Dada una correspondencia #map<string,string> M#, y una clave #k0#, se
+  // desea extraer todos los pares de asignacion correspondientes a claves
+  // conectadas con #k0#. 
+   [Tomado en primer parcial 2011-09-13].
+   keywords: correspondencia
+
+----- task1_bb.cpp -------------------
+
+Diversas operaciones en un Arbol Binario (AB)
+[se asume que sus etiquetas son n\'umeros enteros positivos]:
+altura          : calcula la altura;
+cta\_hojas      : cuenta el n\'umero de hojas;
+max\_etiq\_arbol: obtiene la m\'axima etiqueta de todo el \'arbol;
+max\_epar\_arbol: obtiene la m\'axima etiqueta par del \'arbol;
+max\_etiq\_hojas: obtiene la m\'axima etiqueta de solo las hojas;
+sum\_etiq\_arbol: obtiene la suma de todas las etiquetas;
+f\_aplica: ejemplo simple de {\bf programaci\'on funcional}
+usando, una vez por vez, las funciones f\_duplica y f\_mitad
+(ver en task1\_bo.cpp las equivalentes para \'arbol orientado). 
+keywords: arbol binario
+
+----- task1_bo.cpp -------------------
+
+   Diversas operaciones sobre un Arbol Ordenado Orientado (AOO)
+   [se asume que sus etiquetas son n\'umeros enteros positivos]:
+   altura          : calcula la altura;
+   #cta_hojas#      : cuenta el n\'umero de hojas;
+   #max_etiq_arbol# : obtiene la m\'axima etiqueta de todo el \'arbol;
+   #max_epar_arbol# : obtiene la m\'axima etiqueta par del \'arbol;
+   #max_etiq_hojas# : obtiene la m\'axima etiqueta de solo las hojas;
+   #sum_etiq_arbol# : obtiene la suma de todas las etiquetas;
+   #f_aplica# : ejemplo simple de {\bf programaci\'on funcional}
+   usando, una vez por vez, las funciones f\_duplica y f\_mitad
+   (ver en task1\_bb.cpp las equivalentes para \'arbol binario). 
+   Otras: es\_camino, is\_path, list\_if
+   #profundidad# : calcula la profundidad de un nodo. 
+   #get_node_by_pre_index# : busca un nodo dado su indice (en preorden). 
+   keywords: arbol orientado
+
+----- task2_bb.cpp -------------------
+
+Diversas operaciones con \'arboles binarios:
+semejante: determina si dos \'arboles tienen la misma estructura;
+espejo   : determina si la estructura de un \'arbol es la espejada 
+           de otro;
+iguales  : determina si dos \'arboles son iguales,
+           en estructura y contenido;
+copiaespejo: copia un \'arbol en otro en forma espejada.
+keywords: arbol binario
+
+----- task2_bo.cpp -------------------
+
+Diversas operaciones sobre un Arbol Ordenado Orientado (AOO). 
+{\tt todos\_pares(tree<int> \&A)}: verifica si todas las 
+etiquetas son pares. 
+{\tt bool algun\_par(tree<int> \&A);}:
+verifica si alguna de las etiquetas es par. 
+{\tt int nodos\_n(tree<int> \&A,int n);} cuenta los nodos 
+cuya etiqueta es igual a {\tt n}. 
+{\tt int nodos\_mayores\_que(tree<int> \&A, int m);}
+cuenta el n\'umero de nodos cuya etiqueta es mayor 
+o igual que {\tt m}. [Tomado en el 2do parcial del 27/5/2004].
+keywords: arbol orientado
+
+----- tpl1-2013.cpp -------------------
+
+   Escribir una funcion #void split_mod(list<int> &L, int m,#
+   #vector<list<int> > &VL);# que dada una lista #L#, y un entero #m#
+   divide a la lista en las sublistas de los elementos que son
+   congruentes entre si modulo #m#. Es decir en #VL[j]# deben 
+   quedar los elementos tales que #x%m==j#. 
+
+   Escribir una funcion predicado #bool is_sublist(list<int> &L1,#
+   #list<int> &L2);# que determina si #L2# es una sublista de #L1#
+   es decir si #L2# se puede obtener de #L1# solo borrando elementos
+   de L1. 
+
+   Escribir una funcion #void max_sublist(list<int> &L,#
+   #list<int> &subl);# que
+   dada una lista #L# retorna la maxima sublista contigua de #L# con
+   elementos pares #subl#. 
+
+   [Tomado en el TPL1 de 2013-08-31].  
+   keywords: lista
+
+----- tpl120150829.cpp -------------------
+
+  #iscomb:# Dado un vector de listas #VL# y una lista
+  #L#, determinar si #L# es una combinacion de las listas de #VL#
+  en alguna permutacion dada. Cada una de las #VL[j]# debe aparecer
+  una y solo una vez en #L#.
+
+  #max-sublist:# Programar una funcion
+  #list<int> max_sublist(list<int> &L);#
+  la cual recibe una lista de enteros y encuentra y retorna la
+  sublista consecutiva #Lmax# que obtenga la mayor suma entre todos
+  sus elementos. Notar que debido a que algunos elementos pueden ser
+  negativos el problema no se resuelve simplemente tomando todos los
+  elementos. Tambien es posible que la sublista resultado no contenga
+  ningun elemento, en el caso de que todos los elementos de #L# sean
+  negativos.
+
+  #mergesort#: Programar una funcion
+  #void mergesort(list<int> &L);#
+  que reciba una lista #L# desordenada y la
+  ordene en forma ascendente.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 1
+   (TPL1) de 2015-08-29].
+   keywords: lista
+
+----- tpl120160908.cpp -------------------
+
+  #transpose:# Sea un vector de listas #M# que almacena los
+  coeficientes de una matriz #A# de #m*n# entradas, escribir
+  una funcion 
+  #void transpose(vector<list<int>>  &M,vector<list<int> > &Mt);# 
+  que retorna los coeficientes
+  de la matriz transpuesta es decir la lista #Mt[j]#
+  contiene la columna} #j-1.#
+
+  #homogeniza:# Implemente una funcion
+  #void homogeniza(list<int> &C, int hmin, int hmax);#
+  que recibe una lista #C# de enteros ordenados en forma ascendente y la
+  modifica de tal manera de que entre cada elemento no exista una
+  diferencia menor a #hmin# ni mayor a #hmax.# 
+
+  #bool-opers:# Dadas dos listas
+  ordenadas #L1# y #L2,# escribir una funcion
+  #void bool_opers(list<int> &Lxor,# #list<int> &Land, list<int> &L1,#
+  #list<int> &L2);#
+
+  que deja en #Lxor# una nueva lista ordenada con todos los
+  elementos que esten en *solo una* de las dos listas
+  originales, y en #Land# una nueva lista ordenada con
+  todos los elementos que esten en *ambas.*
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 1
+   (TPL1) de 2016-09-08].  
+   keywords: lista
+
+----- tpl120170908.cpp -------------------
+
+   #extract-range:# Dada una lista de enteros #L1# y dos
+   iteradores en la misma #p,q#, extraer el rango #[p,q)# de
+   #L1# en la lista #L2#. Nota: ambos #p,q# pueden ser
+   #end()# y no necesariamente #p# esta antes de #q#.
+
+   #add-elements:# Insertar cada uno de los elementos de la
+   pila #S# en la lista ordenada #L#, la cual debe permanecer ordenada
+   luego de la insercion. La funcion debe retornar la cantidad de
+   numeros repetidos en la lista #L# luego de la insercion. Tener en
+   cuenta que si hay mas de dos ocurrencias del mismo numero, dicho
+   numero cuenta una unica vez en la suma de elementos repetidos.
+
+   #coprimos:# Escribir una funcion #bool coprimos(list<int>
+   &L);# que retorna #true# si todos los elementos de #L#
+   son coprimos entre si. Recordemos que dos enteros son
+   coprimos entre si el unico entero que divide a ambos es
+   1. 
+
+   [Tomado en el TPL1 de 2017-09-08].  
+   keywords: lista, pila, cola
+
+----- tpl120180906.cpp -------------------
+
+   #sign-split:# Implemente una funcion 
+   #void sign_split(list<int> &L,vector< list<int> > &VL);# que dada una
+   lista #L#, retornar el un vector de listas #VL# las sublistas
+   contiguas del mismo signo (el caso 0 es considerado junto con los
+   positivos, es decir separa negativos de no-negativos).
+
+
+   #sign-join:# Implemente una funcion
+   #void sign_join(vector< list<int> > &VL,list<int> &L);#
+   que, dado un vector de listas #VL# generar una lista #L# donde estan
+   primero concatenados todos la primera subsecuencia de
+   no-negativos de #VL[0]#, #VL[1]#, Despues los negativos, 
+   despues nuevamente los no-negativos, y asi siguiendo hasta que se acaban todos los #VL#. 
+
+   #reverse-stack:# Escribir un programa que invierta una
+   pila #S# utilizando recursion. No esta permitido el uso de constructores
+   iterativos (#while#, #for#, etc) ni tampoco el uso estructuras de datos
+   adicionales. Solo pueden utilizarse metodos de la pila.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 1
+   (TPL1) de 2018-09-06].
+   keywords: lista
+
+----- tpl120190905.cpp -------------------
+
+   #pareto:# Se dice que un punto #x=(x1,x2,..,xn)#
+   #n-dimensional domina a otro punto y=(y1,y2,..,yn)# si se
+   cumple que, todas las componentes de #x# son menores o
+   iguales que las de #y# y al menos una de ellas es menor estricta. 
+   Dado un conjunto de vectores encontrar el frente de
+   Pareto del conjunto, es decir todos los #x# tales que no
+   son dominados por otro vector del conjunto.
+
+   #merge-kway:# Implementar una funcion void
+   #merge_kway(vector< queue<int> > &qords,queue<int> &merged)# que dado
+   un vector de colas ordenadas #ordqs,# obtener la cola #merged#
+   resultante de la fusion de todas las colas en una sola, de forma de
+   que los elementos siguen ordenadas. 
+
+   #is-balanced:# Dado un string #expr,# implementar una funcion
+   #bool is_balanced(string &expr);# que determine si todos los 
+   pares de parentesis, llaves y corchetes estan bien balanceados.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 1
+   (TPL1) de 2019-09-05].
+   keywords: lista, pila, cola
+
+----- tpl1d20140830.cpp -------------------
+
+  #large-even-list:# Dado un #vector<list<int>> &VL# buscar
+  aquella lista #VL[j]# que contiene la maxima cantidad de
+  pares y retornar la sublista de pares correspondientes (en
+  el mismo orden que estan en #VL[j]# ).  Si hay varias
+  listas con la maxima longitud retornar la primera.
+ 
+  #interlaced-split# Dada una lista de enteros #L# y un
+  entero positivo #m# dividir a #L# en #m# sublistas (en un vector
+  de listas #vector< list<int> > VL# ) en forma
+  _entrelazada_ es decir #(a0,a1,a2...)# van
+  correspondientemente a las listas #VL[0]#, #VL[1]#, #VL[m-1],#
+  #VL[0],# #VL[1]# ... Es decir, el elemento  #aj# va a la lista
+  #VL[k]# donde #k=j%m# y #j# es la posicion entera en la lista. 
+
+  #interlaced-join:# Es la inversa de
+  #interlaced_split()#. Dado un  #vector< list<int> > VL# 
+  juntarlos en una lista #L# de uno a la vez. Es decir, primero los
+  primeros elementos de #VL[0]#, #VL[1]#, #...#, #VL[m-1]#,
+  despues los segundos elementos, hasta que se acaben todas las
+  listas. 
+
+   [Tomado en el TPL1 de 2014-08-30].  
+   keywords: lista
+
+----- tpl1r20150912.cpp -------------------
+
+   #iscomb:# Dado un vector de listas #VL# y una lista
+   #L#, determinar si #L# es una combinacion de las listas de #VL#
+   en alguna permutacion dada. Cada una de las #VL[j]# debe aparecer
+   una y solo una vez en #L#. 
+
+   #max-sublist:# Escribir una funcion
+   que recibe una lista de enteros y encuentra y retorna la
+   sublista consecutiva que obtenga la mayor suma entre todos
+   sus elementos. 
+
+   #mergesort:# Programar una funcion void
+   #mergesort(list<int> &L);# que ordane una lista #L#
+   desordenada y la ordene en forma ascendente mediante una
+   estrategia recursiva.
+
+   [Tomado en el Recup Trabajo Practico de Laboratorio Nro 1
+   (TPL1R) de 2015-09-12].  
+   keywords: lista
+
+----- tpl1rec-2013.cpp -------------------
+
+  mergekw: Dado un vector de listas ordenadas hacer una fusion
+  K-way, es decir juntar todas las listas en una sola,
+  tambien ordenada. El algoritmo K-way consiste en
+  recorrer los primeros elementos de las listas (atencion que algunas
+  pueden estar vacias), tomar el menor e insertarlo al fin de la lista
+  #L# Esto se realiza hasta que todas las listas esten vacias. El
+  algoritmo es similar a la fusion de dos listas, pero generalizado a
+  #K# listas. 
+
+  splitlist: Dado un vector de listas #VL1# y un entero
+  #M# devolver otro vector de listas #VL2# donde las listas
+  tienen a lo sumo M elementos. 
+
+  join-list: Dado un vector de listas #VL1# escribir una
+  funcion que va juntando listas de #VL1# hasta que 
+  todas tengan longitud #>=M#. 
+
+   [Tomado en el Recup TPL1 de 2013-09-19].  
+   keywords: lista
+
+----- tpl22013.cpp -------------------
+
+   Contiene count-level, odd2even, y is_shift. 
+   [Tomado en el TPL2 2013-10-12].
+   keywords: correspondencia, lista, arbol orientado
+
+----- tpl220161013.cpp -------------------
+
+   #unordered-equal:#
+   Escribir una funcion bool que
+   reciba dos Arboles Ordenados Orientados (AOO) y retorne #true# si
+   son desordenadmente iguales. Es decir si se pueden transformar uno en el otro 
+   conpermutaciones en la lista de hermanos de cada nod. 
+
+   #hay-camino:# Un viajante quiere viajar desde una
+   ciudad a otra siguiendo algun camino del grafo conexo de rutas
+   #M.# Lamentablemente se tiene la informacion de que en algunas
+   ciudades hay piquetes y es imposible pasar por ellas. Para
+   determinar si es posible realizar el viaje se debe implementar una
+   funcion, que recibe el mapa de rutas disponibles (cada arista del grafo
+   representa una ruta directa disponible entre las ciudades de los
+   vortices que conecta), y la lista de ciudades con piquetes. La
+   funcion debe retornar verdadero si existe alguna ruta que comience
+   en la ciudad #cini# y finalice en #cend# sin pasar por ninguna de las
+   ciudades con piquetes.
+
+   #enhance-html:# Los desarrolladores de un sitio web
+   desean resaltar los links que aparecen dentro de cada
+   pagina del sitio. Para ello es necesario que cada link
+   (tag #<a># en HTML) se encuentre dentro de un tag
+   #<strong>.# Para resolver este problema ya contamos con
+   un parser del codigo HTML que lo representa en un
+   #tree<string>.# Escribir una funcion que recorre dicho
+   arbol y si encuentra una hoja con tag #a# le agrega un padre #strong#. 
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 2
+   (TPL2) de 2016-10-13].  
+   keywords: correspondencia, arbol orientado
+
+----- tpl220171012.cpp -------------------
+
+   #prom-nivel:# Dado un arbol #T,# calcular una lista de
+   reales #P,# donde el elemento #l# de la lista sea el
+   promedio de los nodos del arbol de nivel #l.#
+
+   #es-circuito:# Dado un grafo #G# representado por un map
+   de nodos a lista de vecinos, y una lista de nodos #L,#
+   escriba una funcion que determine si la secuencia de
+   nodos #L# es un camino dentro del grafo #G.#
+
+   #map-graph:# Dado un grafo #Gin# y una permutacion #P,#
+   encontrar el grafo #Gout# que resulta de permutar los
+   vertices de #Gin# por la pertmutacion #P,# es decir si la
+   arista #(j,k)# esta en #Gin,# entonces la arista
+   #(P[j],P[k])# debe estar en #Gout.#
+
+   [Tomado en el TPL2 de 2017-10-12].  
+   keywords: correspondencia, arbol orientado
+
+----- tpl220181011.cpp -------------------
+
+   #classify_relative:# Implemente una funcion 
+   #void classify_relative(tree<int> &T,int n1,int n2,int &m1, int&m2);#
+   que dados dos valores nodales #n1# y #n2# en un arbol #T# retorna
+   las distancias #m1# y #m2# de ambos nodos al antecesor comun mas
+   cercano. Por ejemplo si #T1=(5 (1 8 (9 2)) (7 3))#, #n1=8# y #n2=7#
+   entonces el antecesor comun es el nodo #5# (la raiz) y las
+   distancias correspondientes son #m1=2# y #m2=1#.
+
+   #prom-path:#
+   Dado un arbol #T#, escribir una funcion
+   #float prom_path(tree<int> &T);#
+   que retorne la longitud
+   promedio de los caminos desde la raiz a las hojas. Por ejemplo, para
+   el arbol #T=(1 (2 3 4 (5 6)) 7 8)#, los 5 posibles caminos desde la
+   raiz a una hoja son:\\
+   #{1,2,3}, {1,2,4}, {1,2,5,6}, {1,7}, {1,8};#
+   cuyas longitudes son 2, 2, 3, 1 y 1; lo cual da un promedio de
+   (2+2+3+1+1)/5 = 9/5 = 1.8.
+
+   #filtra-deps:# Se tiene un #map<string,list<string>>#
+   que representa un grafo dirigido donde los nodos son nombres
+   paquetes de software en un repositorio, y los arcos dependencias
+   entre paquetes.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 2
+   (TPL2) de 2018-10-11].
+   keywords: arbol orientado, correspondencia
+
+----- tpl220191010.cpp -------------------
+
+   #fill-oprev:# Dado un AOO #T# y una lista #L# reemplaza
+   los nodos de #T# con los valores de #L#. Si hay mas
+   nodos en #T# que valores en #L# entonces los nodos
+   restantes de #T# quedan en su valor
+   original. Reciprocamente, si hay mas valores en #L# que
+   en #T# los valores restantes de #L# son descartados. 
+
+   #a-lo-ancho:# Implemente una funcion que reciba un grafo
+   no dirigido #G# y genere un arbol de expansion #T# de
+   la componente conexa a la que pertenece el primer
+   vertice del grafo (que sera la raiz del arbol), a
+   partir del algoritmo de busqueda a lo ancho.
+
+   #intersect-map:# Implemente una funcion que, a partir de
+   las correspondencias A# y #B# construye una
+   correspondencia #C# de manera que las claves de #C# son
+   la interseccion de las claves de #A# y B# y para cada
+   clave #k# en #C# la imagen #C[k]# es la interseccion
+   ordenada de las listas ordenadas #A[k]# y B[k]#. Si
+   esta interseccion de listas es nula, no debe incluirse
+   la entrada de clave #k# en #C#.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 2
+   (TPL2) de 2019-10-10].
+   keywords: arbol orientado, correspondencia
+
+----- tpl2r20141016.cpp -------------------
+
+  #mkmtree:# Escribir una funcion que dados dos enteros
+  positivos #m#, #k#, construye un AOO, tal que tiene a #m#
+  en la raiz y dado un nodo #n# los hijos de #n# son
+  #(*n)-j*k#, mientras sean no negativos. Por ejemplo si
+  #m=10,k=3# debe retornar #T=(10 (7 (4 1) 1) (4 1) 1)#.
+
+  #has-equal-path:# Dado un arbol ordenado orientado (AOO)
+  escribir una funcion predicado que determina si contiene
+  un camino de valores iguales que va desde la raiz a una
+  hoja con todos elementos iguales. 
+
+  #pancake-sort:# Dada una pila de numeros #S#, implementar
+  el algoritmo de ordenamiento Pancake Sort, el cual ordena 
+  la pila solo haciendo operaciones en las cuales se invierte 
+  un rango contiguo de elementos en el tope de la pila. 
+
+  #count-cycles:# Dado un #map<int,int> &M# que representa
+  una permutacion (es decir tal que el conjunto de las
+  claves es igual al conjunto de las imagenes) escribir una
+  funcion que cuenta sus ciclos. 
+
+  [Tomado en el Recup Trabajo Practico de Laboratorio Nro 2 
+     (TPL2R) de 2014-10-16].  
+  keywords: arbol orientado,cola,pila,grafo,correspondencia
+
+----- tpl2r20151022.cpp -------------------
+
+   #tree2count:# Dado un arbol #T# conntruye una lista #L# 
+   que contiene en preorder la cantidad de nodos de cada 
+   subarbol de #T#. E.g. #T=(3 (2 1 5) (7 8))# da #L=(6 3 1 1 2 1)#. 
+   Decimos que #T# es un arbol de conteo si en los nodos tiene la 
+   cantidad de nodos de su subarbol. 
+
+   #count2tree:# Es la inversa de #tree2count#, dada la lista de
+   conteo reconstruye el arbol. No recupera los valores de los
+   nodos del arbol sino que en los nodos quedan las conteos de hijos. 
+   E.g. #L=(6 3 1 1 2 1)#.  #T=(6 (3 1 1) (2 1))#. 
+
+   Notemos que #count2tree(tree2count(count2tree(T)))=count2tree(T)#. 
+   Es decir #count2tree# es la inversa de #tree2count# asumiendo que #T# 
+   ya es un arbol de conteo. 
+
+   #hasnpath:# Dado un grafo #G#, dos vertices #a,b#, y un entero #n>=0# 
+   determina si existe un camino (con posibles nodos repetidos) de 
+   longitud #n# de #a# a #b#.
+
+   #key2abbrev:# Dado una serie de strings #keys# encontrar para cada 
+   uno de ellos un prefijo unico #abb# lo mas corto posible. Por ejemplo
+   #(mesa metro multa) -> (me met m)#. 
+
+   [Tomado en el Recup Trabajo Practico de Laboratorio Nro 2
+   (TPL2R) de 2015-10-22].  
+   keywords: arbol orientado, grafo, correspondencia
+
+----- tpl320161103.cpp -------------------
+
+   #puede-simplificar:# Se utiliza un arbol binario para representar una
+   expresion matematica, donde los nodos interiores representan
+   operadores binarios, y los nodos hoja operandos (variables o
+   constantes).  Escriba una funcion para determinar si la
+   expresion que representa el arbol puede simplificarse extrayendo 
+   un factor comun.
+
+   #prune-and-return:# Implemente la funcion #prune(T,v,L)#
+   que dado un arbol binario #T# busque el nodo cuya
+   etiqueta sea #v# y retorne en #L# la lista en preorden de
+   todos los nodos del subarbol
+   correspondiente. Adicionalmente el nodo y su subarbol debe ser eliminado de #T#. 
+
+   #gather-sets:# Dado un vector de conjuntos  y un predicado
+   retornar la union de todos los conjuntos que
+   contienen al menos un elemento que satisface el predicado.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 3
+   (TPL3) de 2016-11-03].  
+   keywords: arbol binario, conjunto, programacion funcional
+
+----- tpl320171102.cpp -------------------
+
+   #isBST:# Dado un arbol binario #T,# determinar si es un
+    arbol binario de busqueda.
+
+    #fillBST:# Dada una lista de enteros #L# y un arbol
+    binario #T,# generar #fillBST# que inserta los elementos
+    de #L# en #T# formando un arbol binario de busqueda
+    siguiendo el orden original de #L.#
+
+    #eqsumplit.# Escribir un predicado que retorna #true#
+    sii el conjunto #S# se puede descomponer en dos conjuntos
+    disjuntos #S1# y #S2# tales que la suma de los elementos
+    de #S1# es igual a la suma de #S2.#
+
+    [Tomado en el TPL3 de 2017-11-02].  
+    keywords: arbol binario, conjunto
+
+----- tpl320181101.cpp -------------------
+
+   #make-full:# Implementar una funcion 
+   #void make_full(btree<int> &T);# que elimina (in-place) los nodos interiores
+   de un arbol binario que tienen un solo hijo, de manera que el arbol
+   resultante es un arbol binario lleno (Full Binary Tree). En el arbol
+   resultante solo deben quedar hojas o arboles interiores con dos
+   hijos.
+
+   #max-subtree:# Escribir una funcion,
+   #int max_subbtree(btree<int>&T);#
+   que retorna la suma de etiquetas maxima de entre todos los posibles
+   subarboles del arbol binario #T.#
+
+   #most-connected:# Implementar una funcion 
+   #int most_connected(vector< set<int> > &VS);#
+   que retorna el indice #j# tal que el conjunto #VS[j]# es el que
+   esta \emph{conectado} con un mayor numero de otros conjuntos de
+   #VS.# Decimos que dos conjuntos estan conectados si no son disjuntos,
+   es decir, si tienen interseccion comun no vacia.
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 3
+   (TPL3) de 2018-11-01].
+   keywords: arbol binario, conjunto
+
+----- tpl320191031.cpp -------------------
+
+   #spaceship:# El operador de comparacion de 3 vias
+   (three-way comparison operator), tambien llamado
+   "operador nave espacial" (spaceship operator) (ya que en
+   lenguajes como Perl o C++ (en el estandar C++20) se
+   sobrecargan con el operador #<=># se define de la
+   siguiente manera: #spaceship(a,b)# retorna 1 si #a>b#, 0
+   si #a==b# y -1 si #a<b#. Escribir una funcion
+   #spaceship(T1,T2)# para arboles binarios. 
+
+   #mkhuffman:# Implemente una funcion  
+   #T=makeHuffmannTree(bosque);# que recibe una lista de 
+   arboles y porbabilidades y aplica el algoritmo de Huffmann para 
+   retornar el arbol con la codificacion optima resultante.
+
+   #mincostsets:#   Dado un conjunto universal #U# de #n# elementos y una lista
+  de subconjuntos de #U# denominada
+  #S = (S1, S2,...,Sm)#  en donde cada subconjunto #Si# tiene
+  un costo asociado, se pide implementar una funcion
+  #mincostsets(U,S,costos)# que retorna el costo de 
+  la sublista de #S# de costo minimo, y que cubra todos los 
+  elementos de !+U+. 
+
+   [Tomado en el Trabajo Practico de Laboratorio Nro 3
+   (TPL3) de 2019-10-31]
+   keywords: arbol binario, conjunto
+
+----- tpl3d20141101.cpp -------------------
+
+  #bijsubset:#
+  Dado un conjunto #S# y una funcion de mapeo #T(*f)(T)#
+  determinar el conjunto #S1# de elementos #x# de #S1# tales
+  que no existe otro elemento #z# con #f(x)=f(z).# Es decir,
+  para los elementos de #S1# y su imagen, la relacion es
+  biyectiva.
+
+  #preimage:#
+  Dados un #vector<set<int> > VX# y un #set<int> Y,# y una
+  funcion de mapeo #T(*f)(T)# encontrar el conjunto de
+  #VX[j]# *preimagen* de #Y# tal que si se le aplica
+  #f# a sus elementos, se obtiene #Y.#
+
+  #is-recurrent-tree:# 
+  Dado un arbol binario lleno (todos sus nodos interiores
+  tienen los dos hijos), verificar si es un *arbol
+  recurrente.* Un arbol binario se considera recurrente si
+  cada uno de sus nodos interiores es la suma de sus 2 nodos
+  hijos. Se generaliza ademas para cualquier funcion
+  asociativa #g(x,y),# es decir no solo para la suma.
+
+  #ordered-tree:# 
+  Dado un vector de numeros enteros positivos, se debera
+  armar un arbol binario de manera que la posicion i-esima
+  del vector verifica si es mayor que la raiz. En caso que
+  sea mayor, intentara insertarse en el subarbol derecho de
+  la misma, y sino en el subarbol izquierdo. Si el hijo
+  correspondiente esta vacio entonces lo inserta alli, si no
+  lo compara con el elemento, y vuelve a aplicar la regla
+  recursivamente. La definicion es similar a la de un arbol
+  binario, pero no representa un conjunto, es decir los
+  elementos pueden estar duplicados.
+
+  [Tomado en el Trabajo Practico de Laboratorio Nro 3 (TPL3) de 2014-11-01].  
+  keywords: arbol binario, conjunto
+
+----- tpl3r20141106.cpp -------------------
+
+   #only1:#
+   Dado un vector de conjuntos #VS,# determinar el conjunto #S1# de todos
+   aquellos elementos que estan en uno y solo uno de ellos. Por ejemplo,
+   si #VS=[{0,1,2,3},{2,3,4,5}],# entonces #S1={0,1,4,5}.# 
+
+   #included:# Dada un vector de conjuntos, escribir una
+   funcion predicado, que determina si los conjuntos del
+   vector son subconjuntos propios en forma consecutiva. Es
+   decir, si #S_j\subset S_{j+1}# para
+   #j=0,...,n-2#. (Recordar que #A\subset B# indica
+   inclusion *propia,* es decir #A\subseteq B# y #A\neq B$.#
+
+   #diffh:# Escribir una funcion predicado que determina si
+   el arbol esta balanceado, es decir si para cada nodo
+   interno del AB la diferencia de alturas de los subarboles
+   de su hijo izquierdo y derecho difieren en a lo maximo 1.
+
+   #onechild:# Dado una arbol binario (AB), determinar
+   cuantos nodos de tienen exactamente un solo hijo
+   *(single child count).*
+
+   [Tomado en el Recup Trabajo Practico de Laboratorio Nro 3 
+   (TPL3R) de 2014-11-06].  
+   keywords: arbol binario,conjunto
+
+----- tplr20161110.cpp -------------------
+
+   #max_sublist_m# Programar una funcion 
+   #max_sublist_m(list<int> &L, int m);# que reciba una lista de
+   enteros #L# y un entero #m# tal que #0<m<=L.size(),# y encuentre y
+   retorne el valor de la mayor suma de entre todas las posibles
+   sumas de sublistas de longitud #m.#
+
+   #remove_max_sibling:# Escribir un funcion 
+   #void remove_max_sibling(tree<int>&T);# que borra el mayor hijo
+   de cada lista de hijos. 
+
+   #max_siblings_sum:# Escriba una funcion 
+   #void max_siblings_sum(tree<int>&T,list<int>&L);#
+   que reciba un AOO y retorne la lista de nodos
+   hermanos (ordenados desde el mas izquierdo) que obtenga
+   la mayor suma entre todas sus etiquetas.
+
+   #max_valid_path:# Implementar la funcion
+   #int max_valid_path(map<int,set<int>>& G, bool (*pred)(int));# 
+   que recibe un grafo no dirigido #G#
+   y retorna la longitud del camino mas largo (sin repetir vertices) 
+   tal que cada uno de los nodos que lo
+   compone satisface el predicado #pred.# 
+
+   [Tomado en el Recup TPLs (TPLR) de 2016-11-10].  
+   keywords: lista, arbol orientado, arbol binario, correspondencia, conjunto, programacion funcional
+
+----- tplr20171109.cpp -------------------
+
+   #sum_sublist:# Implemente la funcion que dada una lista de
+   enteros #L# y un entero #S,# encuentre y retorne una sublista
+   cuya suma sea S. 
+
+   #discrete_moving_mean:# Implemente la funcion que dada
+   una lista de enteros #L# y un entero #w,# retorne una lista
+   con los valores de la media movil con ventana fija de
+   tamano #w.#
+
+   #d10s:# Implemente la funcion que reciba un AOO #T# y retorne el
+   camino  desde la raiz hasta el nodo con la etiqueta 10. 
+
+   #is_cycle:# Implemente una funcion que determine si el
+   grafo #G# es un ciclo dirigido o no.
+
+   #existe_subc:# Implementar una funcion que dado un
+   conjunto #S# y un valor #n,# determine si existe un
+   subconjunto de #S# para el cual la suma de sus elementos
+   sea n.
+
+   #replace_btree:# Implemente una funcion que busque los
+   nodos que cumplan con la condicion #pred# y los reemplace
+   por el primero de sus descendientes que no la cumpla.
+
+   [Tomado en el TPL Recup de 2017-11-09].  
+   keywords: arbol binario, arbol orientado, conjunto, lista, programacion funcional
+
+----- tplr20181122.cpp -------------------
+
+   #tree_less:#
+   Queremos escribir una funcion predicado #bool tree_less(tree<int> &T1,tree<int> &T2);# que sea
+   una relacion de orden fuerte para AOO. Debe retornar #true# si #T1<T2.# Recordemos que una relacion de
+   orden fuerte debe ser transitiva y tambien debe satisfacer que si #T1<T2# y #T2<T1# son falsos debe ser
+   #T1=T2.#
+
+   #xcommon:#
+   Implemente una funcion #void xcommon(list<int> &L1,list<int> &L2,list<int> &Lcommon);# tal que
+   dadas dos listas #L1# y #L2# extraiga la parte comun del comienzo de #Lcommon,# de tal forma que
+   #L2=(Lcommon,Ltail1)# y #L2=(Lcommon,Ltail2).# Adicionalmente, los argumentos #L1,# #L2# deben quedar
+   con las ”colas” correspondientes #Ltail1# y #Ltail2.#
+
+
+   #xsubtrees:#
+   Implemente la funcion void #xsubtrees(btree<int> &T, int depth, list<btree<int>> &Lout);#
+   que dado un arbol binario #T# y un entero #depth# extraer del arbol #T# todos los subarboles de nodos que
+   esten a profundidad #depth# (moverlos hacia la lista de subarboles #Lout# ).
+
+   #maxsubK:#
+   Escriba una funcion #int maxsubk(set<int> &S, int k);# que devuelva la maxima suma en valor absoluto
+   de todos los subconjuntos posibles del conjunto #S# tomados de a #k.#
+
+   #num-path:# Escriba una funcion 
+   #int num_path(map<int,set<int>>& G, int i, int j);# que
+   retorne el numero de caminos (sin ciclos) en el grafo no
+   dirigido #G,# partiendo desde el vertice #i# y
+   finalizando en el vertice #j.# Se garantiza que los nodos
+   #i# y #j# estan en el grafo.
+
+
+   #super-stable-partition:# Escribir una funcion
+   #super_stable_partition# que reciba una lista con enteros
+   #L# y dos listas vacias #L_low# y #L_geq,# determine si
+   existe alguna posicion para particionar la lista en dos
+   sublistas segun el valor de dicha posicion, sin
+   reordenarla. Es decir, debe encontrar una posicion tal
+   que todos los elementos previos a la misma sean menores
+   al valor que hay en dicha posicion, y todos los elementos
+   posteriores sean mayores o iguales. Si existe tal
+   posicion (si hay mas de una, tome la primera en la
+   secuencia), mueva (splice) ambas partes a las listas
+   #L_low# (menores) y #L_geq# (mayores o iguales) y retorne
+   #true;# si no existe retorne #false.#  
+
+   [Tomado en el Recuperatorio de TPLs de 2018-11-22].
+   keywords: lista, correspondencia, arbol binario, arbol orientado,conjunto
+
+----- tplr20191107.cpp -------------------
+
+   #media-movil-entera:# Implemente la funcion #list<int>
+   mediaMovilEntera(list<int>& L, int v)# que dada una lista de
+   enteros #L,# retorne una lista con los valores de la media
+   movil con ventana fija de tamano #v.#
+
+   #nSumaK:# Implementar la funcion #bool nSumaK(set<int>
+   &S, int k)# que dado un conjunto #S# y un valor #k,#
+   retorne el numero de subconjuntos de #S# para los cuales
+   la suma de sus elementos sea #k.#
+
+   #nCaminosK:# Dado un grafo simple #map<int,set<int>> G#
+   y dos vertices #a# y #b,# implementar una funcion
+   #int nCaminosK(graph& G, int a, int b, int k)# que
+   retorne el numero de caminos de longitud #k# entre los
+   vertices #a# y #b.# El camino puede repetir nodos.
+
+   #make-heap:# Escribir una funcion void
+   #make_heap(btree<int> &T);# que convierte in-place el
+   arbol binario en parcialmente ordenado, aplicando el
+   algoritmo make-heap.
+
+   #sort-stack:# Escribir un programa que ordene una pila
+   #S# utilizando recursion de forma tal que los elementos
+   de mayor valor se encuentren en el tope. No esta
+   permitido el uso de constructores iterativos (#while#,
+   #for#, etc) ni tampoco el uso estructuras de datos
+   adicionales. Solo pueden utilizarse metodos de la pila.
+
+   [Tomado en el Recup de Trabajo Practico de Laboratorio 
+   (TPLR) de 2019-11-07]
+   keywords: arbol binario, conjunto, lista, pila
+
+----- tplsr20141107.cpp -------------------
+
+   #isomorph Dos arboles binarios #B1,# #B2# son isomorfos
+   si se pueden aplicar una serie de inversiones entre los
+   hijos derechos e izquierdos de los nodos de #B2# de manera
+   que quede un arbol semejante a #B1#, es decir que tiene la
+   misma estructura.
+
+   #has-sum# Dado un #set<int># y un entero #M# determinar si
+   existe un subconjunto de #S# que sume exactamenet #M.#
+
+   #find-shift# Dadas dos listas #L1# #L2# tal que #L2# es
+   una permutacion ciclica de #L1# determinar el shift. 
+
+   [Tomado en el Super Recup TPL 
+   (TPLSR) de 2015-11-11].  
+   keywords: lista, conjunto, arbol binario
+
+----- tree.h -------------------
+
+   Utilitarios varios. 
+   keywords: arbol orientado
+
+----- util.cpp -------------------
+
+   Utilitarios varios. 
+   keywords: lista, cola
+
+----- util.h -------------------
+
+   Utilitarios varios. 
+   keywords: lista, cola
+
+----- util_btree.cpp -------------------
+
+   Utilitarios varios. 
+   keywords: arbol binario
+
+----- util_btree.h -------------------
+
+   Utilitarios varios. 
+   keywords: arbol binario
+
+----- util_tree.cpp -------------------
+
+   Utilitarios varios. 
+   keywords: arbol orientado
+
+----- util_tree.h -------------------
+
+   Utilitarios varios. 
+   keywords: arbol orientado
+
+----- verifcolor.cpp -------------------
+
+   Dado un grafo #map<int, set<int> >G# y una coloracion
+   #map<int,string> C# determinar si #C# es una coloracion valida, es
+   decir si dados dos vertices adyacentes #x#, #y# de #G# sus colores
+   son diferentes. 
+   [Tomado en tercer parcial 2011-11-24].
+   keywords: conjunto, grafo
+
+----- verifsum_bo.cpp -------------------
+
+  En un programa de dise\~no asistido por computadora
+  (tipo AutoCAD) se desea mantener las piezas de un sistema
+  (por ejemplo un auto) clasificando sus partes en la forma
+  de un \'arbol, donde sus nodos interiores representan
+  sistemas del auto (planta motriz, direccion, carroceria),
+  sus hijos subs-sistemas y asi siguiendo hasta las hojas
+  que son los componentes indivisibles del automovil (por
+  ej. el tornillo de fijaci\'on del espejo retrovisor
+  izquierdo).
+  Se quiere mantener en cada hoja el peso (en Kilogramos)
+  del componente, y en los nodos interiores el peso total
+  de todos los componentes del sub\'arbol que cuelga de ese
+  nodo. Peri\'odicamente se quiere verificar que efectivamente
+  las etiquetas del \'arbol verifican esta propiedad, es
+  decir que la etiqueta de los nodos interiores es la
+  suma de las hojas del sub\'arbol que cuelga de \'el.
+  Escribir una funcion bool verif\_sum (tree <int> &T, node_t n) 
+  que retorna true si el subarbol que cuelga del nodo verifica 
+  la condicion dada y false en caso contrario. Usar las 
+  primitivas del TAD Arbol Ordenado orientado.
+  [Tomado en el segundo parcial del cursado 2002, 28/5/2002.]
+  keywords: arbol orientado
+
+----- verifsum_bo.cpp -------------------
+
+  En un programa de dise\~no asistido por computadora
+  (tipo AutoCAD) se desea mantener las piezas de un sistema
+  (por ejemplo un auto) clasificando sus partes en la forma
+  de un \'arbol, donde sus nodos interiores representan
+  sistemas del auto (planta motriz, direccion, carroceria),
+  sus hijos subs-sistemas y asi siguiendo hasta las hojas
+  que son los componentes indivisibles del automovil (por
+  ej. el tornillo de fijaci\'on del espejo retrovisor
+  izquierdo).
+  Se quiere mantener en cada hoja el peso (en Kilogramos)
+  del componente, y en los nodos interiores el peso total
+  de todos los componentes del sub\'arbol que cuelga de ese
+  nodo. Peri\'odicamente se quiere verificar que efectivamente
+  las etiquetas del \'arbol verifican esta propiedad, es
+  decir que la etiqueta de los nodos interiores es la
+  suma de las hojas del sub\'arbol que cuelga de \'el.
+  Escribir una funcion bool verif\_sum (tree <int> &T, node_t n) 
+  que retorna true si el subarbol que cuelga del nodo verifica 
+  la condicion dada y false en caso contrario. Usar las 
+  primitivas del TAD Arbol Ordenado orientado.
+  [Tomado en el segundo parcial del cursado 2002, 28/5/2002.]
+  keywords: arbol orientado
+
+----- xrange.cpp -------------------
+
+   Dada una lista de enteros #L1# y dos iteradores #p, q# de la
+   misma, escriba una funcion 
+   #void extraer_rango(list<int> &L1, list<int>::iterator p,# 
+   #list<int>::iterator q, list<int> &L2);# que extraiga el rango de #L1# 
+   y lo deja en la lista #L2.# 
+   Nota: ambos iteradores #p# y #q# pueden ser #end()# y
+   no necesariamente #p# esta antes de #q.#
+
+   [Tomado en el Trabajo Practico de Laboratorio 1
+   (TPL1) de 2020-09-24]
+   keywords: lista
+
+
+
+[Generado Mon Sep 28 12:09:24 2020]
